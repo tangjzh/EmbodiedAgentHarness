@@ -1,0 +1,10 @@
+mani-skill==3.0.1
+mujoco==3.3.7
+gymnasium==1.0.0
+robosuite==1.5.1
+numpy==1.26.4
+scipy==1.17.1
+opencv-python-headless==4.11.0.86
+pillow==13.0.0
+imageio[ffmpeg]==2.38.1
+mcp==2.3.0

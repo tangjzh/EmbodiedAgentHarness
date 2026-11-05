@@ -1,0 +1,894 @@
+{
+  "schema_version": 1,
+  "no_cross_task_transfer": true,
+  "agent": "Claude Code",
+  "tasks": [
+    {
+      "id": "finger_spin",
+      "name": "持续拨轮",
+      "benchmark": "dm_control",
+      "backend": "state",
+      "group": "state",
+      "goal": "用两关节手指反复拨动轮子，让角速度持续达到原生目标（≤−15 rad/s）。",
+      "enabled": true,
+      "development_episodes": 20,
+      "heldout_episodes": 3,
+      "wall_seconds": 7200,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "native_state",
+      "historical_result": {
+        "metric": "mean_reward_occupancy",
+        "value": 0.9477,
+        "trials": 3
+      },
+      "reference": "reference_runs/finger_spin/workspace",
+      "notes": [
+        "留出仅3个初态，报告奖励占比，不能推出总体成功率。",
+        "本案例使用直接状态输入，不能作为视觉控制证据。"
+      ]
+    },
+    {
+      "id": "ball_in_cup_catch",
+      "name": "绳球入杯",
+      "benchmark": "dm_control",
+      "backend": "state",
+      "group": "state",
+      "goal": "移动杯子接住连在绳上的球，并让球持续留在杯内。",
+      "enabled": true,
+      "development_episodes": 20,
+      "heldout_episodes": 3,
+      "wall_seconds": 7200,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "native_state",
+      "historical_result": {
+        "metric": "mean_reward_occupancy",
+        "value": 0.984,
+        "trials": 3
+      },
+      "reference": "reference_runs/ball_in_cup_catch/workspace",
+      "notes": [
+        "使用模拟器直接提供的杯/球状态；不是RGB-D感知任务。",
+        "Agent开发会话被基础设施中断；最终是原checkpoint无新增模型调用的冻结验证。",
+        "自建模型预测不算原生实验结果。"
+      ]
+    },
+    {
+      "id": "acrobot_swingup",
+      "name": "Acrobot摆起",
+      "benchmark": "dm_control",
+      "backend": "state",
+      "group": "state",
+      "goal": "仅用肘部驱动，把两连杆机器人摆到上方并维持平衡。",
+      "enabled": true,
+      "development_episodes": 20,
+      "heldout_episodes": 3,
+      "wall_seconds": 7200,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "native_state",
+      "historical_result": {
+        "metric": "mean_native_return",
+        "value": 697.018,
+        "trials": 3
+      },
+      "reference": "reference_runs/acrobot_swingup/workspace",
+      "notes": [
+        "直接状态输入，冻结控制不通过图像估计连杆。",
+        "中断会话的checkpoint完成了后续冻结验证，不能写成正常交付的Agent会话。",
+        "离线自建模型搜索与原生留出回报必须分开。"
+      ]
+    },
+    {
+      "id": "hopper",
+      "name": "Hopper跳跃",
+      "benchmark": "Gymnasium MuJoCo Hopper",
+      "backend": "state",
+      "group": "state",
+      "goal": "让单腿机器人保持存活并向前移动，原生环境按运动和存活给连续奖励。",
+      "enabled": true,
+      "development_episodes": 20,
+      "heldout_episodes": 3,
+      "wall_seconds": 7200,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "native_state",
+      "historical_result": {
+        "metric": "mean_native_return",
+        "value": 1135.301,
+        "trials": 3
+      },
+      "reference": "reference_runs/hopper/workspace",
+      "notes": [
+        "原生无二元成功阈值，不把回报写成成功率。",
+        "使用直接状态；没有在最终执行中做RGB-D感知。",
+        "最终代码在750步后减弱推蹬并允许速度增大，注释明确借助剩余时限结束前尚未摔倒；不能推出无限时长稳定步态。"
+      ]
+    },
+    {
+      "id": "dexjoco_hammer_nail",
+      "name": "灵巧手敲钉",
+      "benchmark": "DexJoCo / RAX",
+      "backend": "rax_dexjoco",
+      "group": "dexjoco",
+      "goal": "用灵巧手抓起锤子，把钉子压入木板并满足DexJoCo原生完成判据。",
+      "enabled": true,
+      "development_episodes": 20,
+      "heldout_episodes": 3,
+      "wall_seconds": 28800,
+      "max_turns": 1000,
+      "effort": "max",
+      "observation": "rgbd_proprioception",
+      "historical_result": {
+        "metric": "development_only",
+        "heldout_valid": false
+      },
+      "reference": "reference_runs/dexjoco_hammer_nail/workspace",
+      "notes": [
+        "钉子推进包含速度门控脚本规则，原生成功不证明真实锤击接触动力学已解决。",
+        "两个开发成功不能替代独立冻结留出。",
+        "后续验证首动作前模拟器崩溃，不能算任务失败。"
+      ]
+    },
+    {
+      "id": "maniskill_peg",
+      "name": "侧向插销",
+      "benchmark": "ManiSkill3",
+      "backend": "precision",
+      "group": "maniskill",
+      "goal": "抓起橙白插销，把橙色一端沿盒子侧孔插入；销孔间隙约3毫米。",
+      "enabled": true,
+      "development_episodes": 20,
+      "heldout_episodes": 3,
+      "wall_seconds": 28800,
+      "max_turns": 1000,
+      "effort": "max",
+      "observation": "rgbd_proprioception",
+      "historical_result": {
+        "metric": "native_success",
+        "successes": 3,
+        "trials": 3
+      },
+      "reference": "reference_runs/maniskill_peg/workspace",
+      "notes": [
+        "3个留出样本不足以估计总体成功率。",
+        "使用精确相机标定与无物体真值的RGB-D；固定相机视角为覆盖桌面做过调整。"
+      ]
+    },
+    {
+      "id": "dexmimicgen_threading",
+      "name": "双臂穿套",
+      "benchmark": "DexMimicGen",
+      "backend": "precision",
+      "group": "dexmimicgen",
+      "goal": "双臂分别抓住针杆和带环支架，把针杆穿过环并推进到原生要求深度。",
+      "enabled": true,
+      "development_episodes": 20,
+      "heldout_episodes": 3,
+      "wall_seconds": 28800,
+      "max_turns": 1000,
+      "effort": "max",
+      "observation": "rgbd_proprioception",
+      "historical_result": {
+        "metric": "native_success",
+        "successes": 3,
+        "trials": 3
+      },
+      "reference": "reference_runs/dexmimicgen_threading/workspace",
+      "notes": [
+        "开发和留出均未记录完整失败回合，不能为展示而虚构失败样本。",
+        "仅3个留出样本；不能推出任意双臂穿套泛化。"
+      ]
+    },
+    {
+      "id": "dlo_unknotting",
+      "name": "双臂解结",
+      "benchmark": "DLO-Lab",
+      "backend": "soft",
+      "group": "dlo",
+      "goal": "用开场已经固定连接在两处绳点的双臂，展开同一种绳结并提高原生解结分数。",
+      "enabled": true,
+      "development_episodes": 20,
+      "heldout_episodes": 3,
+      "wall_seconds": 28800,
+      "max_turns": 1000,
+      "effort": "max",
+      "observation": "proprioception_only_controller",
+      "historical_result": {
+        "metric": "mean_native_score",
+        "value": 0.848057,
+        "trials": 3
+      },
+      "reference": "reference_runs/dlo_unknotting/workspace",
+      "notes": [
+        "原生无二元成功阈值，不换算成功率。",
+        "预先固定抓点且不能换抓；留出只平移同一种绳结。",
+        "冻结程序不从图像重新识别绳结；不是未知绳结视觉解结策略。"
+      ]
+    },
+    {
+      "id": "factory_nut_thread",
+      "name": "螺母旋拧",
+      "benchmark": "NVIDIA Factory / Isaac Lab",
+      "backend": "soft",
+      "group": "factory",
+      "goal": "把环境已经夹住的M16螺母对准螺栓并旋入原生要求的深度。",
+      "enabled": true,
+      "development_episodes": 20,
+      "heldout_episodes": 3,
+      "wall_seconds": 28800,
+      "max_turns": 1000,
+      "effort": "max",
+      "observation": "rgbd_proprioception",
+      "historical_result": {
+        "metric": "native_final_success",
+        "successes": 3,
+        "trials": 3
+      },
+      "reference": "reference_runs/factory_nut_thread/workspace",
+      "notes": [
+        "预抓螺母；原生控制器保持夹爪闭合、限制手倾角和工作区，并用带噪声的模拟器螺栓位置限制工作区。",
+        "基础旋转由执行器持续提供，不是Agent独立实现完整旋拧执行器。",
+        "旧本地reader_export是中途快照；最终结论以远端完成记录为准。"
+      ]
+    },
+    {
+      "id": "insert_key",
+      "name": "插钥匙",
+      "benchmark": "RoboDojo / RAX",
+      "backend": "rax_robodojo",
+      "group": "robodojo",
+      "goal": "抓起钥匙、双手交接，让钥匙竖直插进锁孔并转动约75°。",
+      "enabled": true,
+      "development_episodes": 20,
+      "heldout_episodes": 3,
+      "wall_seconds": 28800,
+      "max_turns": 1000,
+      "effort": "max",
+      "observation": "rgbd_proprioception",
+      "historical_result": {
+        "metric": "native_final_success",
+        "successes": 1,
+        "trials": 3
+      },
+      "reference": "reference_runs/insert_key/workspace",
+      "notes": [
+        "原生正式成功1/3；开发成功及阶段分不能替代最终程序成功率。",
+        "规划工具调用次数只证明提出请求，不能证明每次规划成功或执行。",
+        "最终失败包括程序主动退出的完整正式尝试，区别于早期基础设施中断。"
+      ]
+    },
+    {
+      "id": "sweep_blocks",
+      "name": "扫方块",
+      "benchmark": "RoboDojo / RAX",
+      "backend": "rax_robodojo",
+      "group": "robodojo",
+      "goal": "让所有方块落入簸箕、簸箕位于扫帚左侧且双臂回到初始姿态。",
+      "enabled": true,
+      "development_episodes": 20,
+      "heldout_episodes": 3,
+      "wall_seconds": 28800,
+      "max_turns": 1000,
+      "effort": "max",
+      "observation": "rgbd_proprioception",
+      "historical_result": {
+        "metric": "native_final_success",
+        "successes": 3,
+        "trials": 3
+      },
+      "reference": "reference_runs/sweep_blocks/workspace",
+      "notes": [
+        "录像呈现逐个夹放，不能声称学会了扫帚与多物体接触的扫动技能。",
+        "同色相接方块仍可能漏检；仅3个留出布局。"
+      ]
+    },
+    {
+      "id": "garment_fling",
+      "name": "衣物甩展自检（排除）",
+      "benchmark": "GarmentLab",
+      "backend": "soft",
+      "group": "garment",
+      "goal": "原计划让双臂抓住并甩展衣物；当前配置在Agent启动前的移植自检即被排除。",
+      "enabled": false,
+      "development_episodes": 20,
+      "heldout_episodes": 3,
+      "wall_seconds": 28800,
+      "max_turns": 1000,
+      "effort": "max",
+      "observation": "rgbd_proprioception",
+      "historical_result": {
+        "metric": "environment_qualification_failed",
+        "agent_called": false
+      },
+      "reference": "reference_runs/garment_fling/workspace",
+      "notes": [
+        "没有Agent会话、工具调用或任务策略，不能算成功或失败案例。",
+        "原生grasp使用cloth attachment；不能将接口语义描述成真实摩擦夹布。",
+        "物理尺寸、渲染和评分兼容性未验证。"
+      ]
+    },
+    {
+      "id": "factory_peg_insert",
+      "name": "Factory 插销",
+      "benchmark": "NVIDIA Factory / Isaac Lab",
+      "backend": "factory",
+      "group": "factory",
+      "goal": "将原生环境已夹持的插销对准孔座并插到底。",
+      "enabled": true,
+      "development_episodes": 8,
+      "heldout_episodes": 10,
+      "wall_seconds": 14400,
+      "max_turns": 600,
+      "max_response_tokens": 32768,
+      "output_token_cap": 500000,
+      "effort": "high",
+      "development_seed_base": 3101000,
+      "evaluation_seed_base": 5101000,
+      "observation": "rgbd_proprioception",
+      "historical_result": {
+        "metric": "native_final_success",
+        "successes": 10,
+        "trials": 10
+      },
+      "reference": "reference_runs/factory_peg_insert/workspace",
+      "notes": [
+        "Reference is the independently developed fresh program, not an inherited-codebase program. Native pregrasp and executor restrictions retained."
+      ]
+    },
+    {
+      "id": "factory_gear_mesh",
+      "name": "Factory 齿轮装配",
+      "benchmark": "NVIDIA Factory / Isaac Lab",
+      "backend": "factory",
+      "group": "factory",
+      "goal": "将已夹持的中齿轮套入轴并与相邻齿轮啮合。",
+      "enabled": true,
+      "development_episodes": 8,
+      "heldout_episodes": 10,
+      "wall_seconds": 14400,
+      "max_turns": 600,
+      "max_response_tokens": 32768,
+      "output_token_cap": 500000,
+      "effort": "high",
+      "development_seed_base": 3102000,
+      "evaluation_seed_base": 5102000,
+      "observation": "rgbd_proprioception",
+      "historical_result": {
+        "metric": "native_final_success",
+        "successes": 9,
+        "trials": 10
+      },
+      "reference": "reference_runs/factory_gear_mesh/workspace",
+      "notes": [
+        "Reference is the independently developed fresh program, not an inherited-codebase program. Native pregrasp and executor restrictions retained."
+      ]
+    },
+    {
+      "id": "cube_lift",
+      "name": "立方体抬升",
+      "benchmark": "robosuite",
+      "backend": "capx",
+      "group": "capx_robosuite",
+      "goal": "抓住桌面上的立方体并将它抬起。",
+      "suite": "cube_lift",
+      "task_id": "cube_lift",
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": false,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/cube_lift",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "cube_stack",
+      "name": "立方体堆叠",
+      "benchmark": "robosuite",
+      "backend": "capx",
+      "group": "capx_robosuite",
+      "goal": "抓起一个立方体并把它堆叠到另一个立方体上。",
+      "suite": "cube_stack",
+      "task_id": "cube_stack",
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": false,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/cube_stack",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_10_3",
+      "name": "黑碗放入抽屉并关上",
+      "benchmark": "LIBERO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "把黑碗放进白色柜子的底层抽屉，再关上抽屉。",
+      "suite": "libero_10",
+      "task_id": 3,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": false,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_10_3",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_10_9",
+      "name": "杯子放入微波炉并关门",
+      "benchmark": "LIBERO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "把黄白色杯子放进微波炉，再关上炉门。",
+      "suite": "libero_10",
+      "task_id": 9,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": false,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_10_9",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_90_16",
+      "name": "黑碗堆叠",
+      "benchmark": "LIBERO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "把前面的黑碗放到中间的黑碗上。",
+      "suite": "libero_90",
+      "task_id": 16,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": true,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_90_16",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_goal_0",
+      "name": "打开中层抽屉",
+      "benchmark": "LIBERO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "打开柜子的中层抽屉；默认记录单独评估开抽屉阶段。",
+      "suite": "libero_goal",
+      "task_id": 0,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": true,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_goal_0",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_goal_5",
+      "name": "推移盘子",
+      "benchmark": "LIBERO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "把盘子推到任务要求的位置；默认记录单独评估推盘子阶段。",
+      "suite": "libero_goal",
+      "task_id": 5,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": false,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_goal_5",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_goal_7",
+      "name": "拨动炉灶开关",
+      "benchmark": "LIBERO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "操作炉灶开关；默认记录单独评估开关操作阶段。",
+      "suite": "libero_goal",
+      "task_id": 7,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": false,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_goal_7",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_goal_9",
+      "name": "酒瓶放入酒架",
+      "benchmark": "LIBERO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "把酒瓶放到酒架上；默认记录只评估搬运阶段。",
+      "suite": "libero_goal",
+      "task_id": 9,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": false,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_goal_9",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_object_0",
+      "name": "字母汤罐放入篮子",
+      "benchmark": "LIBERO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "把字母汤罐放入篮子；默认记录只评估搬运阶段。",
+      "suite": "libero_object",
+      "task_id": 0,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": false,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_object_0",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_object_swap_0",
+      "name": "字母汤罐入篮（物体替换）",
+      "benchmark": "LIBERO-PRO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "找到字母汤罐，抓起后放入篮子。",
+      "suite": "libero_object_swap",
+      "task_id": 0,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": true,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_object_swap_0",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_object_swap_1",
+      "name": "奶油奶酪入篮（物体替换）",
+      "benchmark": "LIBERO-PRO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "找到奶油奶酪，抓起后放入篮子。",
+      "suite": "libero_object_swap",
+      "task_id": 1,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": true,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_object_swap_1",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_object_swap_2",
+      "name": "沙拉酱瓶入篮（物体替换）",
+      "benchmark": "LIBERO-PRO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "找到沙拉酱瓶，抓起后放入篮子。",
+      "suite": "libero_object_swap",
+      "task_id": 2,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": true,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_object_swap_2",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_object_swap_3",
+      "name": "烧烤酱瓶入篮（物体替换）",
+      "benchmark": "LIBERO-PRO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "找到烧烤酱瓶，抓起后放入篮子。",
+      "suite": "libero_object_swap",
+      "task_id": 3,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": true,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_object_swap_3",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_object_swap_4",
+      "name": "番茄沙司瓶入篮（物体替换）",
+      "benchmark": "LIBERO-PRO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "找到番茄沙司瓶，抓起后放入篮子。",
+      "suite": "libero_object_swap",
+      "task_id": 4,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": false,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_object_swap_4",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_object_swap_5",
+      "name": "番茄酱罐入篮（物体替换）",
+      "benchmark": "LIBERO-PRO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "找到番茄酱罐，抓起后放入篮子。",
+      "suite": "libero_object_swap",
+      "task_id": 5,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": true,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_object_swap_5",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_object_swap_6",
+      "name": "黄油入篮（物体替换）",
+      "benchmark": "LIBERO-PRO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "找到黄油，抓起后放入篮子。",
+      "suite": "libero_object_swap",
+      "task_id": 6,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": true,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_object_swap_6",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_object_swap_7",
+      "name": "牛奶盒入篮（物体替换）",
+      "benchmark": "LIBERO-PRO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "找到牛奶盒，抓起后放入篮子。",
+      "suite": "libero_object_swap",
+      "task_id": 7,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": true,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_object_swap_7",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_object_swap_8",
+      "name": "巧克力布丁入篮（物体替换）",
+      "benchmark": "LIBERO-PRO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "找到巧克力布丁，抓起后放入篮子。",
+      "suite": "libero_object_swap",
+      "task_id": 8,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": false,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_object_swap_8",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_object_swap_9",
+      "name": "橙汁盒入篮（物体替换）",
+      "benchmark": "LIBERO-PRO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "找到橙汁盒，抓起后放入篮子。",
+      "suite": "libero_object_swap",
+      "task_id": 9,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": true,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_object_swap_9",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    },
+    {
+      "id": "libero_spatial_2",
+      "name": "黑碗移到盘子上",
+      "benchmark": "LIBERO",
+      "backend": "capx",
+      "group": "capx_libero",
+      "goal": "把黑碗搬到盘子上；默认记录只评估搬运阶段。",
+      "suite": "libero_spatial",
+      "task_id": 2,
+      "enabled": true,
+      "development_episodes": 1,
+      "heldout_episodes": 0,
+      "wall_seconds": 2400,
+      "max_turns": 200,
+      "effort": "max",
+      "observation": "rgbd_proprioception_with_CaP_X_tools",
+      "historical_result": {
+        "representative_native_success": false,
+        "is_aggregate": false
+      },
+      "reference": "reference_runs/libero_spatial_2",
+      "notes": [
+        "Historical task records used multiple harnesses/interfaces. Fresh Claude Code runs use fixed upstream CaP-X APIs, with no evolved or inherited task code. Historical scores do not certify the new harness."
+      ]
+    }
+  ]
+}

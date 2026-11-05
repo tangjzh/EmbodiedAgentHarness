@@ -1,0 +1,19 @@
+{
+  "task": "cube_stack",
+  "scope": "Historical representative record; not a fresh-agent cohort success rate.",
+  "native_success": false,
+  "historical_harness": "Published CaP-X _run_single_trial with VDM and native code loop",
+  "campaign": "capx_bridge_v1",
+  "interface": "M4",
+  "code_blocks": [
+    "historical_blocks/000_code.py",
+    "historical_blocks/001_code.py",
+    "historical_blocks/002_code.py",
+    "historical_blocks/003_code.py"
+  ],
+  "limitations": [
+    "没有逐函数调用日志；可还原生成代码、原生动作tick与视频，不能确认每个代码函数的真实调用次数。",
+    "源代码中的solve_ik/plan_grasp仅作为静态代码引用；工具存在不等于已调用。",
+    "这是Opus 5.5与非特权边界修正下的受控诊断，不是论文数字的精确复现。"
+  ]
+}

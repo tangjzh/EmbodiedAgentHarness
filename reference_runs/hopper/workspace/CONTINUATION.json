@@ -1,0 +1,14 @@
+{
+  "source_case": "/raid/jinzhou/embodied-boundary-pilot/runs/continuation_v7/hopper",
+  "fresh_episode_after_interruption": true,
+  "interrupted_episode": 3,
+  "next_episode": 4,
+  "previous_native_steps": 551,
+  "previous_agent_wall_seconds": 2619.425676,
+  "previous_agent_turns": 27,
+  "previous_turn_count_is_estimate": true,
+  "replayed_prefix_steps": 0,
+  "claims_exact_physical_continuation": false,
+  "cli_context": "new session with original workspace, memory and delivered feedback",
+  "at": "2026-10-31T18:50:14.972857+00:00"
+}

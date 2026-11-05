@@ -1,0 +1,14 @@
+{
+  "task": "finger_spin",
+  "historical_result": {
+    "metric": "mean_reward_occupancy",
+    "value": 0.9477,
+    "trials": 3
+  },
+  "summary": "冻结程序3个留出初态；平均奖励占比94.77%，不是总体成功率。",
+  "limitations": [
+    "留出仅3个初态，报告奖励占比，不能推出总体成功率。",
+    "本案例使用直接状态输入，不能作为视觉控制证据。"
+  ],
+  "reference_is_operator_only": true
+}

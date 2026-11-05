@@ -1,0 +1,15 @@
+{
+  "task": "dlo_unknotting",
+  "historical_result": {
+    "metric": "mean_native_score",
+    "value": 0.848057,
+    "trials": 3
+  },
+  "summary": "冻结3留出最终分数0.842546/0.852559/0.849065，均100步。原生无二元阈值，不换算成功率；预先固定抓点，同种绳结整体平移，非未知拓扑泛化。",
+  "limitations": [
+    "原生无二元成功阈值，不换算成功率。",
+    "预先固定抓点且不能换抓；留出只平移同一种绳结。",
+    "冻结程序不从图像重新识别绳结；不是未知绳结视觉解结策略。"
+  ],
+  "reference_is_operator_only": true
+}

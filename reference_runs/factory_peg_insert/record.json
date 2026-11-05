@@ -1,0 +1,10 @@
+{
+  "task": "factory_peg_insert",
+  "historical_result": {
+    "metric": "native_final_success",
+    "successes": 10,
+    "trials": 10
+  },
+  "source_condition": "fresh task; first task has an empty prefix",
+  "reference_is_operator_only": true
+}

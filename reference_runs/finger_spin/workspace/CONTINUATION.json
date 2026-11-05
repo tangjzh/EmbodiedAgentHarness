@@ -1,0 +1,17 @@
+{
+  "source_case": "/raid/jinzhou/embodied-boundary-pilot/runs/continuation_v6/finger_spin",
+  "source_trace_hashes": {
+    "episodes/development_01/trajectory.npz": "a0178aa8a0e7f83bca3cc1138820ad54e7f3f2e8c1c45df767384a039af25f23"
+  },
+  "reconstruction": "same native seed and complete action-prefix replay",
+  "cli_context": "fresh session with carried workspace, memory and delivered tool feedback",
+  "replayed_prefix_steps": 816,
+  "replay_max_state_error": 0.0,
+  "zero_action_starts": [],
+  "previous_turn_count_is_estimate": false,
+  "previous_agent_wall_seconds": 4201.59329508245,
+  "previous_agent_turns": 52,
+  "counts_as_new_trial": false,
+  "verified": true,
+  "verified_at": "2026-10-31T04:11:04.517518+00:00"
+}

@@ -1,0 +1,1866 @@
+[
+  {
+    "path": "reference_runs/ball_in_cup_catch/record.json",
+    "sha256": "95a488b1ecff7917da79949cf13fc94200a9b00fe27d8fb40d9f1c855056263b"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/record.json",
+    "sha256": "f2b99c8d6ef7a4645ca204d2a30129a1a010daadfba48a354708f1bf2da2bd75"
+  },
+  {
+    "path": "reference_runs/libero_goal_7/record.json",
+    "sha256": "da2b0cf7b914dff27d6c40c565e4d1eaafdfbbd2260c1884617814c16c1517f0"
+  },
+  {
+    "path": "reference_runs/finger_spin/record.json",
+    "sha256": "1fa13f05579dd5f3e2510cf4607663bc7cd17b13e2791df1192ad9f18a672b65"
+  },
+  {
+    "path": "reference_runs/libero_90_16/record.json",
+    "sha256": "8cb1961487490fc18b55de516407d4f1f6e31b63cd358bed7a1e648c5af87478"
+  },
+  {
+    "path": "reference_runs/hopper/record.json",
+    "sha256": "0d17c90e2f619626042eb4d16cc1511b7e973af52b971a1565d4b738ed8abe7a"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_0/record.json",
+    "sha256": "508c0cc891fc8830fdebe84aeba9af52193b783db618dddcb049b9baa68b3401"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/record.json",
+    "sha256": "32a1fc1818624e8f3f09b26d77db89c8a89d8861e636562dac533890e20fc47a"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_4/record.json",
+    "sha256": "26d68ccef09a08f50eab2329ca97d01d43229ab379b95ad1614fceb6df7d71eb"
+  },
+  {
+    "path": "reference_runs/libero_spatial_2/record.json",
+    "sha256": "e07041458fb2ff8eebfba90ca5f8aa7f5ec4d11a2638db7d89364c9970110013"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/record.json",
+    "sha256": "2ee211670c6cd36b829ddce305fd1cb9fc2559a4b3bc30a64b993fcd698ecf49"
+  },
+  {
+    "path": "reference_runs/libero_10_9/record.json",
+    "sha256": "fc0444bc1c771df7a3f9e03cc75eda94a60e648a197ae53b10c66f7b6281b28d"
+  },
+  {
+    "path": "reference_runs/sweep_blocks/record.json",
+    "sha256": "eeb7756e81bc9178398b3c3ddee555e4e79212be2ea5bc4e89a11d3e2f2a89db"
+  },
+  {
+    "path": "reference_runs/insert_key/record.json",
+    "sha256": "aa3ad01c9070d3770f55059d945ddd6b4184127c42a0cbab93e0811d2df2471d"
+  },
+  {
+    "path": "reference_runs/cube_lift/record.json",
+    "sha256": "a2e854a0c51bc3754f0b176558c10b32cde74fbd4ada2fcc2f880c298d64d531"
+  },
+  {
+    "path": "reference_runs/factory_gear_mesh/record.json",
+    "sha256": "a57ec7c57dfb1dc62a6af70099addfa202c61255bdba699476c6b1c9e58395f0"
+  },
+  {
+    "path": "reference_runs/libero_10_3/record.json",
+    "sha256": "24ddbf6be513c972a9b2a4cff0f381d336287e317db911769b17579cf6635e1e"
+  },
+  {
+    "path": "reference_runs/libero_goal_5/record.json",
+    "sha256": "2b723cc513b4e4449be5b2aae4842e88fbf5bcc6af725587c0c85fcd2a06d2ad"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_8/record.json",
+    "sha256": "4c246f7642716e333b84e80d017cfcdbf6f554150fd195a5978e219f6e3f96b5"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_1/record.json",
+    "sha256": "606d13844a6cfc94fc9e983cc6d1eaf1fbed63ec676934e74f6a249f321e3043"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_9/record.json",
+    "sha256": "6e477d5cc5438e5e37d536ade5ae372b1d9f8b86472803e06f6af2e9e123d323"
+  },
+  {
+    "path": "reference_runs/libero_goal_9/record.json",
+    "sha256": "7fa7d894ee4eaf058967e9a2cb6eb082674c5bbedfdab6107ada35a70edbe2e2"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/record.json",
+    "sha256": "a7cfa77cfe56fffe760c1a345b71032d7cc514f413c291f395b8ef030579143a"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_2/record.json",
+    "sha256": "f0011c13b7c17effabac6bef30123e4fb29957b7818c8b95c51c96a5aa034907"
+  },
+  {
+    "path": "reference_runs/factory_peg_insert/record.json",
+    "sha256": "ad6fd1764c9d578e7d1b1f98ada5dbeb18a237b0c3504d558081390365b2eb65"
+  },
+  {
+    "path": "reference_runs/garment_fling/record.json",
+    "sha256": "e89e42f1eeb3ac8e565a9fbbe834f7495e76d091d04b19f0f856b104ee8c0523"
+  },
+  {
+    "path": "reference_runs/libero_goal_0/record.json",
+    "sha256": "60dd931200086957e57cf991b2c526e8e0bd39df0c655be441da6e7053c000fd"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_6/record.json",
+    "sha256": "18b9d77914a29b4f21dd64361ab1e4239b040a842cdf1da6b390a7a4ac82d6e6"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/record.json",
+    "sha256": "c5e975d6e1be255c3f0261f82c3c59714549d38ea5cfa8bc0a1a12bd8e447d0e"
+  },
+  {
+    "path": "reference_runs/libero_object_0/record.json",
+    "sha256": "40115d8b54f9d1d853ea07264022fb05530c2bb82ab111a5f64b87c54a3420fd"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_3/record.json",
+    "sha256": "dfd81ae879f7b785a8bf08dd2d8d551fbecf94c3ed345f8ca72cb891d4b369fa"
+  },
+  {
+    "path": "reference_runs/cube_stack/record.json",
+    "sha256": "6ced4ba21b6acca8eab931e05841b54404e5856fe44dfafa2020cfc82bfafbc8"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/record.json",
+    "sha256": "8f19a93c91d90f509a7ea45b4c06b236db9f578de6b9a5c7e44d93071f96d7dd"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_7/record.json",
+    "sha256": "8d4b74c5fded7227a0e4ddc12c03e5ae2908b6cc5b8f69b9e0d03de0169204ff"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_5/record.json",
+    "sha256": "e2a8251f61634409729a6af72c1b23357624ed49245866e6a9e5049a56ebbf36"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_5/historical_blocks/000_code.py",
+    "sha256": "8644606f9a980d142bb0a36576f463649195278b7840f3c22cf1f9b739751509"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_7/historical_blocks/000_code.py",
+    "sha256": "c5dc482aa97027883ae4176a054b33dc9c6db49de4036994ab7a29e0a67d8e21"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/perception.py",
+    "sha256": "aa5c00dd6d88eaf70f88df90d578fbe3767d5189b8df7494e423bd8ea93eeafe"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/controller.py",
+    "sha256": "26723120879ee40106a6cee47bcd72044f5211e322b12e5d1a180ca7b726bdef"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/geom.py",
+    "sha256": "7656e0c7987d73df79e97476a624c10ff5fc063155a67baaadc5e158a3d857e1"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/tlib.py",
+    "sha256": "f690d0f81d3a5db19d18e61a4e54e7b8ea2f79dc351955bf4acbc92f3a72da14"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/data/controller_v1_backup.py",
+    "sha256": "41eeac600f0de9b96b7b103c53c29af7304702763abe2d82843b7f752abf9e9b"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/data/controller_v2_1.py",
+    "sha256": "26723120879ee40106a6cee47bcd72044f5211e322b12e5d1a180ca7b726bdef"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/data/tlib_v2_1.py",
+    "sha256": "f690d0f81d3a5db19d18e61a4e54e7b8ea2f79dc351955bf4acbc92f3a72da14"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/analysis/av_seg.py",
+    "sha256": "7a5f008fdb9fadad59b022d07dfe93b00d691a0c047ac1d6dfecddd5ad262227"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/analysis/ring_wrist.py",
+    "sha256": "2aced94d610be92e29f8ab4a046b1d23ad65fa0c665247b0b9679d3a3c73e725"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/analysis/av_seg2.py",
+    "sha256": "0a07ee3004b6d5366348089d1165605efeb91a59f01d73a3897012c00afa4b5f"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/analysis/needle_wrist.py",
+    "sha256": "49b111b6594c96003fa37b56801c10da5585a9df9cc0be8b8452bbeee61e1a62"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/analysis/av_seg3.py",
+    "sha256": "b56ff7ef41855a745923ed071be07bd33697d2c74d5124c373f3ddff78cb23e0"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/analysis/percep_old_prototype.py",
+    "sha256": "629cb8884449ef6732e35d33d4faab31951913b1abb30bcaca32f268aeed4771"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/grab.py",
+    "sha256": "fde4ee830888b8880c762e5538f25d011ad6649822e02360f39733e969273c27"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep10.py",
+    "sha256": "366c3f01513c56b272226c450c6635c056d9b8dc3d2240c8b272fb138734810f"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep8.py",
+    "sha256": "571bf97ac58976b5d5373c0fa5552d36913860c5a22e93ba9491296b459fff4f"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep18.py",
+    "sha256": "3f356017c0b98a5918ef1ee6630fc007661ad4c45578b53731f6bf2b7c934d5b"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_probe.py",
+    "sha256": "85a19ea40be58e746525decdca6f28d1e0bbc47489f36690f0d35c664739b101"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep7.py",
+    "sha256": "ec34652a2cfe19724c8dabbb1b9e24bd3e596e9e720a6159933a8d20fe43f313"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/view_wrapper_ring1.py",
+    "sha256": "c2d398eebe170534a3f312a7dbd75de3db8a05f26426723dc14f4f705370558d"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep4.py",
+    "sha256": "4bba7bb1db2389a54ff6b4aa11ecbe906cf5fc339541166588d2f65a091b96ac"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_needle_pre.py",
+    "sha256": "28ff320195025bdfa1b7d34109082e6f2a58f60cab5ce8d6b4d3a9b3366c76c8"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_push.py",
+    "sha256": "9bd5e49fe94e439374e60d0b6a042a18af7728a179aef185274e5faf14d237d6"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep14.py",
+    "sha256": "f4af7a3ea816289622d31d35da63cecf58897227c291dce93e895df8fdf28cb7"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep9.py",
+    "sha256": "a5fb4baaa956a6a939adb93753df93f1421db0e80116b374b12af0a3b913e5f1"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_ring_grasp_go.py",
+    "sha256": "d2c8e3c3699745b4469835e02a5b5064453e865158178f854d813cf944ef8af2"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep12.py",
+    "sha256": "09d51e31ecce59e838389a99b6cafffb7f00fbd822a15aab753ce18ba7091c65"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_tripod_lift.py",
+    "sha256": "02b29632678461cb595d4f52be71eb0d99dbc610760275a72c664c88b5305530"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep8_faults.py",
+    "sha256": "8e70c7cb4f31809a84ac594b2248cd433e9799d96a461f26d295f9f32ff4bf7c"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_ring_above.py",
+    "sha256": "af2601ed6f71f1952f942e3a3f55f0a0ee21cab19e879d8f3b07c4865bf3c5b9"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep6.py",
+    "sha256": "2bd4f6f8f1d6d21ab26d3551bf8a3fbc527817e1a39c6e9641a12a2d5330ad73"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/test_faults3.py",
+    "sha256": "3594a7b2cb8271f4ee99d2ea2e699f86536a73c6f7d12bb4d3d7716c2dc7a101"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_insert_go.py",
+    "sha256": "8607a1e42a7c8f39b77bc7ced9a28b16cafae2645d3f18953ad55f04a79c8e84"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_ring_grasp.py",
+    "sha256": "727cd243a104d5c439b42d482e383dc538bdd1b2ea3d60b6b96891fd541081ea"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep17.py",
+    "sha256": "9b27e680954c38d1218d3ba5e3bd9a5f12db04860bf5f7e7170a1ea2242f7d04"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep3.py",
+    "sha256": "e6ac95354ca21341e0e5fdb7fb0dbb6329e0e7f06032e2160802ec23520bcc03"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_tripod_move.py",
+    "sha256": "6a9f9857dfb183b91c51fc8a2feb259eb719fcc5b1ab92bf9ba5cd5b00c84fdc"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep11_faults.py",
+    "sha256": "b79ed909ffa3e0469829a9d50d545b4f8f31b1ff966f00051bee1fd8640be297"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/test_faults.py",
+    "sha256": "c7fe7852c1a6368e14c4e6df512bcbd758b26c8b06f55a4619c5017a9ed693f5"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/test_faults2.py",
+    "sha256": "4b97cddad3e41b8730cdc774061c24b0b0b07a11a067b46b4f342f032d9048ce"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep2.py",
+    "sha256": "7e60a523407ee4ac9ff6339b952789b65734b065f804cfa2346002a865fb4bba"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep20.py",
+    "sha256": "8311ec04bb8628b3d70d11b74a6407df5624ccf351aaf336a4e9d55f2a61a015"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep5_faults.py",
+    "sha256": "aebccbcb2d392841b066ece6336197efa9eee38414f475e85b3b7782393d2631"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_needle_pose.py",
+    "sha256": "57edd23cdfa404c11c8caa337b2c66535acb9196ea337a442263c8a991d5d00d"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep19.py",
+    "sha256": "6fbc88fa7bf4a00b71f27ee32f46764c4d1b218f738e858e0ae9c21a1b97c86c"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/view.py",
+    "sha256": "962d39b31cff9be023e8b6845d890f5f526adca99097318258a7a1483fd633de"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep16.py",
+    "sha256": "f952195382253dbeef93b5723ae61f5aa180a3f7d9012e19512ba1d61bd87ab3"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_insert.py",
+    "sha256": "91de04b68d03d3125868576468f65b1ba161cc721a38f7d0c8f1c708f6eca617"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_dev.py",
+    "sha256": "f60ca35d97b76163becbb41d4b5e01e79e8116d1a911ac1d9d4475e17c717caf"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/view_ring_axis.py",
+    "sha256": "33cf5e1bf5fbd01a354e6488571f40931a22fb87cea5bc5faadeb1710d0be25c"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_tripod_canon.py",
+    "sha256": "7ee0443df9dc405ff5f4f396b4819d4beb23f824454fc97cbb13bfd8bb36bddc"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep13.py",
+    "sha256": "821a39ad1c8ae6860d92e18b80736c4c886f75fde244ad986d7e2b0a8e374497"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep20_frozen.py",
+    "sha256": "3f7f1cf631b9ed74d9a98e2e47117b2f869c2a2ee84a919346d97304c4ab5682"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep15.py",
+    "sha256": "9c0779d068dfb4c4d586fd7e15e26eae21a346283e74834409be1fe28bd9004e"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/calib1.py",
+    "sha256": "7a42403ab39d62391a18aebb6ac303a4db5d0329e971284bbc03c91f2bf0335c"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_push_go.py",
+    "sha256": "0d68bbb8cccf1fe854625c8cfdfc6d1240a02315fd4fcadd92c30b132fa87c8c"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_probe_contact.py",
+    "sha256": "b6a3703a594e668019ecae480bf5057cb5e502b1716bb0adf686aed752ea880c"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep11.py",
+    "sha256": "5e883575d17fafc0c43333f3614c2b763a2fee6cd2885989ccba5360884a1331"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_needle_pre2.py",
+    "sha256": "61889dcf88253ed148fc3a107cccd7025780d50afb6692c9ad7ba9080557b2ac"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/run_ep5.py",
+    "sha256": "70f95741bfcb5a3d9b8e2d6a67762ecb66c42b909f275a02412c6c55aafdfdcd"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/scripts/ep1_grasp_needle.py",
+    "sha256": "7dab3a5294dc1875a0823d7d838102ff78ee2bee35743cec1e86d3b2840cdb22"
+  },
+  {
+    "path": "reference_runs/dexmimicgen_threading/workspace/analysis/mock/robot_api.py",
+    "sha256": "80673d985190a88b14c9cb06a9819068d29f5a7d55d602add07fbc7f4c481a47"
+  },
+  {
+    "path": "reference_runs/cube_stack/historical_blocks/002_code.py",
+    "sha256": "a01dc78965b985159ade3484fe129ff09737acc75d3e08104b898a9e1261b705"
+  },
+  {
+    "path": "reference_runs/cube_stack/historical_blocks/003_code.py",
+    "sha256": "afa6229143364487a437f2aa1faac2899aa5cd55f96e7aae62b10f75e4a3eb42"
+  },
+  {
+    "path": "reference_runs/cube_stack/historical_blocks/000_code.py",
+    "sha256": "afa6229143364487a437f2aa1faac2899aa5cd55f96e7aae62b10f75e4a3eb42"
+  },
+  {
+    "path": "reference_runs/cube_stack/historical_blocks/001_code.py",
+    "sha256": "9b712021de342969a965da3ef6c219622c51515f298387e10ea8b233a26688ce"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_3/historical_blocks/000_code.py",
+    "sha256": "0d2c6bdee6a9e7f42859bc0bd6b1c632ef27b4c6485e85f120ef999bea5cd33e"
+  },
+  {
+    "path": "reference_runs/libero_object_0/historical_blocks/002_turn2.py",
+    "sha256": "b96d44dfd7a5df99c08a2b720e95f8525b2d9ae9a190f078d1b5a2c5172b21c7"
+  },
+  {
+    "path": "reference_runs/libero_object_0/historical_blocks/001_turn1.py",
+    "sha256": "6be449191adc41c0ad4915776f3322821259268cf49ced57424efbd84098e21f"
+  },
+  {
+    "path": "reference_runs/libero_object_0/historical_blocks/003_turn3.py",
+    "sha256": "bd357d1423112b7b9874a32c6bb7a30cd663c0e8230f5b5117860665b14bdc84"
+  },
+  {
+    "path": "reference_runs/libero_object_0/historical_blocks/000_turn0.py",
+    "sha256": "a6d893bebaf113308df96bcc41d9c1fd3dfa3d82a9854357eb98783df496a0ce"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/perception.py",
+    "sha256": "9ff47ac69bb631350947f80b57f8f6d088b42d26252e11886e2eb832e81dbcf2"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/controller.py",
+    "sha256": "0c1872cbd9765187b5f74dc4589e3bdb4fe6130b511daa3530059a7c1cacf49f"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/geom.py",
+    "sha256": "b43b721a8306f2008e550274bb30c9a8a6c5a1815622c56b2cfcb74664e5d5ef"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/kin.py",
+    "sha256": "109af275b04b6f32d0536248e67169c853a42282bb2ef2626f218e06e0fcca16"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/motion.py",
+    "sha256": "dc7351432fed3edb0d52cd68eb941507b65085e2fb2f7b4c2eb708c31204b9fa"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scratch/test_holes.py",
+    "sha256": "49634c7820074c45580a8081acce401296207ee9d020b1632396d90fa03cd0c0"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scratch/ih_margin.py",
+    "sha256": "9d770b79807b85ff066ea2b9aead463985e1fbe493fac5eb2022d6e7fbfae192"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scratch/sim_rot.py",
+    "sha256": "01d4f3cbb138a60555f5dceb5e9e4a2111bd03867d5f4e2f2db7a99825a20c94"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scratch/hole_resid.py",
+    "sha256": "1a2f8718d6e3534f58ad104edbf472e6224b52de1cb14a926ebf0eb8f6517424"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scratch/dbg_ep3.py",
+    "sha256": "7a25103bf15869606342c336c78bf74fa0e5f3a64a0a563b09218dfdfbe9f9d2"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scratch/reach_map.py",
+    "sha256": "aca9056fc7df028b55d9f7a6fe3040f5755fce6fccdb5139d98c20aa12227979"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scratch/sim_servo.py",
+    "sha256": "2de96efd092c45ab20a388b1de157c3a47d72f717a0f1b4da756561e680a82b2"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scratch/fit_dyn.py",
+    "sha256": "dccc5336ae3b2385118d81209e4a1caeb83119b1ea8c9208216dad705f1b53f7"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scripts/grab.py",
+    "sha256": "963d2d5592322bcd16b13c13bb29e3181064266c1830724da4781f539588757f"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scripts/ep1_rot.py",
+    "sha256": "b5d0a56f9c1ff533e735982259163db6bda24be27ede920bb250a8daa357661f"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scripts/snap.py",
+    "sha256": "e2641a9b507d245710d9f427865dd9e30d7d66f30140bc0eaba474e98c44de5c"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scripts/ep1_a.py",
+    "sha256": "2a63c1ce961dd20f43c68163e5967556b236fa6ec7c28c9ed1e8ac652f982ea6"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scripts/run_ep.py",
+    "sha256": "e09aab0bc8d7a372bca37d377478332731a958fe3a3d0295407f60a8b70188b1"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scripts/ep1_c.py",
+    "sha256": "e3119023c4d6a25c92b11471f1b5f59cad0de47f46338293c4859e689ee6a49c"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scripts/ep2_cont.py",
+    "sha256": "f5e41e4002e2c1925fcb99a45d85c80ed3486eb15cae6663c58581f496d4e1d3"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scripts/ep3_cont.py",
+    "sha256": "4ece67c3a738bbbc7ce2b766b8fc1f84884dbe12d85fda23c5460773005f4924"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scripts/ep1_b.py",
+    "sha256": "4b919e3559e026080f2a75a5d2de99aabf25c5e8d3a85336099a57ec0b3ad24f"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scripts/run_ep_miss.py",
+    "sha256": "b862591682a7e44f7bbea9feb5021ce42f848c2e8d8040f48160bc06b1670f4f"
+  },
+  {
+    "path": "reference_runs/maniskill_peg/workspace/scripts/ep1_d.py",
+    "sha256": "cba0fd3c82faabc322a60826bac2b46b68ab424dffd837b399773ec380561379"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_6/historical_blocks/000_code.py",
+    "sha256": "c381cd34a8ec94db3325ffce966d5d83c921945c67ee79fb8e7ce8777cf719e1"
+  },
+  {
+    "path": "reference_runs/libero_goal_0/historical_blocks/002_turn2.py",
+    "sha256": "0e1cbcc35740781ac93b2d2e08ce5e462e5da98e6c95c01e54b0463eeb644f4e"
+  },
+  {
+    "path": "reference_runs/libero_goal_0/historical_blocks/001_turn1.py",
+    "sha256": "4c782e9beb4db41de3bdf6fd04514012eadeb76c8b03e43f5aba5ad0fd280c45"
+  },
+  {
+    "path": "reference_runs/libero_goal_0/historical_blocks/003_turn3.py",
+    "sha256": "431c3f9181662285e2285800d954668ca07aec1a668d055e560ee256f3b12acf"
+  },
+  {
+    "path": "reference_runs/libero_goal_0/historical_blocks/000_turn0.py",
+    "sha256": "1f6e0b063794e06559ab77da32a05a8f24b7c03a3ddc0335d3ce048cd654b2a7"
+  },
+  {
+    "path": "reference_runs/factory_peg_insert/workspace/perception.py",
+    "sha256": "b112ec103c95c3c21e57e78e3db7168c0b02ca61d1007abc5553a325e17a308d"
+  },
+  {
+    "path": "reference_runs/factory_peg_insert/workspace/controller.py",
+    "sha256": "967f34cd98839c017dda163a3c9a5a6a977a17265043819072d103db1dfb5ce8"
+  },
+  {
+    "path": "reference_runs/factory_peg_insert/workspace/dev/run_episode.py",
+    "sha256": "55bf15d4d28e52cd60da7637ad12e266073762b52ae286014881354d705f7901"
+  },
+  {
+    "path": "reference_runs/factory_peg_insert/workspace/dev/vision_probe.py",
+    "sha256": "a3174e5dff508dd9b0858afd86d85148381cde0413538c93c446de48e7668c6b"
+  },
+  {
+    "path": "reference_runs/factory_peg_insert/workspace/dev/dump.py",
+    "sha256": "08bc0c7b0933ecc3bdbf87e125deed3e5fd6b38c948f8b87532a9aca3b6ab381"
+  },
+  {
+    "path": "reference_runs/factory_peg_insert/workspace/dev/probe3.py",
+    "sha256": "5493c3070144280f8b2db64bd22889244d475c96fbb8ebd8071e6e955e4264f9"
+  },
+  {
+    "path": "reference_runs/factory_peg_insert/workspace/dev/vision_probe2.py",
+    "sha256": "8bcc99ae641d94f9c3f57e21f7d9a93a5ebecb588d4592526e6a68bac0cd82cd"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_2/historical_blocks/000_code.py",
+    "sha256": "e758afe5a087ac6b20c263172e2e1c9f29850408f76cfde09d8e016787459055"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/rope_vision.py",
+    "sha256": "da55a4040e57e0214581a58bddba81724b77f403986dff9e487a50e2bbd35c44"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/controller.py",
+    "sha256": "63dcf09356056e7f0903e5adb13048cce8831781eeb2438dbc1f5a654cb7b8fa"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/api_source.py",
+    "sha256": "e7e9fec01d74e0d65370092a2988bef454d36aae093f70455adf76118be79eaf"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/api_probe.py",
+    "sha256": "1a21712219657f4eb329ad04c81f2cd2ce88e07cabb78769b7f9e6dd9ddeafea"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/act.py",
+    "sha256": "2561b633431f52457764bc229ab0fc753dac284ae73ef957eef1403efff78d36"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/reset_capture.py",
+    "sha256": "f5e71a11b93752b86560e6e3676ef486f4ebea36675ac1c77990569df310cd5a"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/run_ctl.py",
+    "sha256": "17eb1d6f3d41148f3b372bc82c0425b62d3954e44c90cd9ee3062f84f7110c37"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/capture.py",
+    "sha256": "2b164fa121b08dafabccaaed74a2f50b4dd260b55d77c38a2325bb054976f66a"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/knot3d.py",
+    "sha256": "0cfdfc94c8419ca89d8b092826ef22da1e623a5a34c53a8e8a4d81b5eb0a7419"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/geodesic.py",
+    "sha256": "3fdf1597736a8b12bee5bcf767b802f517b943f74569dd9d6aac7b48cf1a340d"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/knotzoom.py",
+    "sha256": "e6ecf5a068c55ae5f06433ec01e62c5f961e1543bebecacbe6a0fb1177a8dcdf"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/reltop.py",
+    "sha256": "da9b59cce0f4eed5656e03c24916dd0570250ab2b127a6cfc2d0eb77cfbf2da0"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/ropestats.py",
+    "sha256": "7f81f00d8325b363d60d1318de01e8554c924576f59a9fe06c433942f7ce13ae"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/sprofile.py",
+    "sha256": "53959caf1cda0fcd78081e91a1095a2cdc703d51c4651115b09831e606fdc3af"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/acn.py",
+    "sha256": "68ee282af3b10316fdae8a7428671eb168b22f2c2c8e1898003f13fe79b96308"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/sideview.py",
+    "sha256": "621316a6ebb54d7583fc8e49ad81ea7926c9750896af074ac12e42377d529cbc"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/loopzoom.py",
+    "sha256": "91123bfeec07b1c199758ba1b690212ac34b0b08529da6603e980cb3ef69d454"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/crops.py",
+    "sha256": "3e79aa914229932cfb10ad1c2c529ba4d9ecfc342907fb8077283e53d19b1abf"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/widetop.py",
+    "sha256": "68a1eae7f7a2ccd28c290607e504777ad56e8c416cb8cb240f350436df5300f1"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/topdown.py",
+    "sha256": "f8aecc17e3243eddf474a44e38112a0481051eddd0d34b2e3d90b305c1ebbadd"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/cropzoom.py",
+    "sha256": "fd0182ad429ba422a25884323f3791208d8bf20a60005fd2c0438b11a9265794"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/viz.py",
+    "sha256": "c004be448794fd1367ebfa1072aff0ec64d5b14a0b6daf640048f6a53532df37"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/acn2.py",
+    "sha256": "0e5f9c2ac8e1961ad45424c1d0c43d05c1fc26c745d50d6088d336ae785fc01b"
+  },
+  {
+    "path": "reference_runs/dlo_unknotting/workspace/dev/tools/acn3d.py",
+    "sha256": "b6346682dcff2b0f35cee8025fc5f4cf0ce8492c1a9cb652a66db423e3087c3c"
+  },
+  {
+    "path": "reference_runs/libero_goal_9/historical_blocks/002_turn2.py",
+    "sha256": "2b26ccbbbfb3bb0ff3f540724a65829843da5e31633ff14198838af5ef44f34f"
+  },
+  {
+    "path": "reference_runs/libero_goal_9/historical_blocks/001_turn1.py",
+    "sha256": "1a553ee5b15ef98c78677061b17dbf9e6e21933eb33cd1230f4929099a60272d"
+  },
+  {
+    "path": "reference_runs/libero_goal_9/historical_blocks/003_turn3.py",
+    "sha256": "cdae732cc74033ca828aa3654175ba33109ac0218efb900a7016f3189ad0abb8"
+  },
+  {
+    "path": "reference_runs/libero_goal_9/historical_blocks/000_turn0.py",
+    "sha256": "ecc48664263d4691494cb755773dc0fb6c6f8c82811e505faac6e576956f6e4a"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_9/historical_blocks/000_code.py",
+    "sha256": "3d22015b126de37ca15dddc3fabba4a4fc3fc8dd1cbe0de8a1bcf5ac5565bb92"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_1/historical_blocks/000_code.py",
+    "sha256": "54e94dcb68ab5e0c49ff332075aa8cb87fb7bd834fe4753d9f814efe0d50cf4c"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_8/historical_blocks/000_code.py",
+    "sha256": "3dbaa3dfcf63b0604ca5906ebc87904914497d3054bf837a946e8fc31ff1da02"
+  },
+  {
+    "path": "reference_runs/libero_goal_5/historical_blocks/002_turn2.py",
+    "sha256": "5bdd3ab19f55b2b85713acb5a5e861535ecb64753950cede60d33c2cc69c2476"
+  },
+  {
+    "path": "reference_runs/libero_goal_5/historical_blocks/001_turn1.py",
+    "sha256": "37b4b67b94eda8f8f608cbabce2720bf009ed7859a88fa92d57489686ab0cf49"
+  },
+  {
+    "path": "reference_runs/libero_goal_5/historical_blocks/003_turn3.py",
+    "sha256": "dc8cd93c0875ba83223469ba401f6ddf6a90bb951f9d58475c698f9315ce9bc7"
+  },
+  {
+    "path": "reference_runs/libero_goal_5/historical_blocks/000_turn0.py",
+    "sha256": "0490d5f8683b8e117bbe841280882ae4f57b92a7f6d8dab99feac203f3dbb7dc"
+  },
+  {
+    "path": "reference_runs/libero_10_3/historical_blocks/008_turn2.py",
+    "sha256": "4abc93b59e05d83bbabcebfa4e915851e98688fe64d64d5a739bee4cc06dfc2d"
+  },
+  {
+    "path": "reference_runs/libero_10_3/historical_blocks/003_turn0.py",
+    "sha256": "9939c1cfc19961a8b1ae26650d58219bb1d3ac0d248867742b712a2e2673d29f"
+  },
+  {
+    "path": "reference_runs/libero_10_3/historical_blocks/006_turn0.py",
+    "sha256": "12d8ef62cc58a0ffff166be7adbfe7453359381f7595f45d98abbf95fc6a5d84"
+  },
+  {
+    "path": "reference_runs/libero_10_3/historical_blocks/002_turn2.py",
+    "sha256": "0e6d64c98bfcc0e9db2640469b8c6a711a0a5b0ce372f2a1d482e9758e5ca28f"
+  },
+  {
+    "path": "reference_runs/libero_10_3/historical_blocks/005_turn0.py",
+    "sha256": "16f115ebca5fa679188b971b1c1d31e225ea40cdcadc2b87a04235b6283cc1be"
+  },
+  {
+    "path": "reference_runs/libero_10_3/historical_blocks/009_turn3.py",
+    "sha256": "afd67bb58d5a988e49b684a29262a4dfca132fbf11ffb30398cb38d53e0fb78d"
+  },
+  {
+    "path": "reference_runs/libero_10_3/historical_blocks/001_turn1.py",
+    "sha256": "8f80d8d704f5e0b93586c699bcc2bf952b598f10454bbe1e57ca7f78472e5ad6"
+  },
+  {
+    "path": "reference_runs/libero_10_3/historical_blocks/004_turn1.py",
+    "sha256": "277cb4b41332d722db85efadb133cf2c050eb57b21ce58c6107fdc7992f7611f"
+  },
+  {
+    "path": "reference_runs/libero_10_3/historical_blocks/000_turn0.py",
+    "sha256": "a9627e293fdb1166dd0b26b21b3c7e4aaaa2396d59bd8ad3d421f5fab6ee967d"
+  },
+  {
+    "path": "reference_runs/libero_10_3/historical_blocks/007_turn1.py",
+    "sha256": "e5d0298d8d75f120f130427684e6daf12a8d1068863f870370863e3ebafd6fc1"
+  },
+  {
+    "path": "reference_runs/factory_gear_mesh/workspace/controller.py",
+    "sha256": "4952b62c00d04827201b1e1ce9c45184e67db7a2b80c1cba5b91926d48b6a15a"
+  },
+  {
+    "path": "reference_runs/factory_gear_mesh/workspace/tools/dev_yaw_test.py",
+    "sha256": "aab4c2ff2e09c13ca85d564f6094c3650a5dfe61a2b3c9fa739d1614a4ed045c"
+  },
+  {
+    "path": "reference_runs/factory_gear_mesh/workspace/tools/hmap.py",
+    "sha256": "37c52d89ef4aca0df6a5503ff237c9431ffa2da221445f6d2e5eaa9415c9700f"
+  },
+  {
+    "path": "reference_runs/factory_gear_mesh/workspace/tools/dev_episode.py",
+    "sha256": "55a14ed04b86b32a5a978f42637787a6c5ed42b5cf158c3224fd0e42a2bf5057"
+  },
+  {
+    "path": "reference_runs/factory_gear_mesh/workspace/tools/dump.py",
+    "sha256": "b31dd3bdc1a8c3731678034632ead9d2fc11551215f8122648d82b3d896e3328"
+  },
+  {
+    "path": "reference_runs/factory_gear_mesh/workspace/tools/probe_step.py",
+    "sha256": "374736d2bfbe943f81b07a1b25ca992f9d41176fe51ac467c0341317df7bb295"
+  },
+  {
+    "path": "reference_runs/factory_gear_mesh/workspace/tools/pc.py",
+    "sha256": "ff48c0a88a592c6092d8573f2f2bfa67de71786fe3e367a358eec26cb9f8571d"
+  },
+  {
+    "path": "reference_runs/factory_gear_mesh/workspace/gearmesh/perception.py",
+    "sha256": "a8e4aaa2be1941455e5304a0d202e707499c3740de7830f87efac9e2901f8aa9"
+  },
+  {
+    "path": "reference_runs/factory_gear_mesh/workspace/gearmesh/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "reference_runs/cube_lift/historical_blocks/002_code.py",
+    "sha256": "6d61d1b55a83c6e4a1eb374267ff964fb87477a543853d6ba06a247489e5e69b"
+  },
+  {
+    "path": "reference_runs/cube_lift/historical_blocks/003_code.py",
+    "sha256": "dcb36c4f3dd2a77be49a7213328824f5925a78058c0446a2378afd16fbf6d755"
+  },
+  {
+    "path": "reference_runs/cube_lift/historical_blocks/000_code.py",
+    "sha256": "93291bf47e274648cee819aa0a94dddb05451b12a80090c7afc758c354bc9b7a"
+  },
+  {
+    "path": "reference_runs/cube_lift/historical_blocks/001_code.py",
+    "sha256": "9bcafb525aa0b2332afecedcda268a5d41b04297c4c013e7a02e032f4351be93"
+  },
+  {
+    "path": "reference_runs/insert_key/workspace/code/insert_key/quat.py",
+    "sha256": "e488829c2561731bf6226330fd8d3f3aec33a700886e435a3ac2567f05b49b8b"
+  },
+  {
+    "path": "reference_runs/insert_key/workspace/code/insert_key/robot.py",
+    "sha256": "685bd2e46698212041d82429eafcddf369350f565867598bdcd2caf513428a2b"
+  },
+  {
+    "path": "reference_runs/insert_key/workspace/code/insert_key/perception.py",
+    "sha256": "0867441b1d635dab23cc38607d3da50195289236142b982958e8c2e5c8f9114c"
+  },
+  {
+    "path": "reference_runs/insert_key/workspace/code/insert_key/controller.py",
+    "sha256": "25b1849bee75fe05e84f90f0604c47f97f414aa7ec514749f2959f1eb180da54"
+  },
+  {
+    "path": "reference_runs/insert_key/workspace/code/insert_key/geom.py",
+    "sha256": "5853ca6dc15e3975f204e0f1908d2708c99c0b621e1a1c0206090bfd29243af6"
+  },
+  {
+    "path": "reference_runs/insert_key/workspace/code/insert_key/kin.py",
+    "sha256": "841a504ab97f02048a27a3fdf08daa4350da0cd5410dac536b28aa8a8b5498f9"
+  },
+  {
+    "path": "reference_runs/insert_key/workspace/code/insert_key/vplan.py",
+    "sha256": "1ca9d8d1eaba9cb7c634bc0f10c29cf25897834d4f1a082aabdc056ca75b7030"
+  },
+  {
+    "path": "reference_runs/insert_key/workspace/code/insert_key/motion.py",
+    "sha256": "7814e8caff107c998d9420b2d9b8b0000a8fbdc712a4fbe32a2220452eddd6ee"
+  },
+  {
+    "path": "reference_runs/insert_key/workspace/code/insert_key/hplan.py",
+    "sha256": "fa1fc4109098133e96526a386a958545f578b4fc0065396c3b1ccc1c8d70beaa"
+  },
+  {
+    "path": "reference_runs/sweep_blocks/workspace/code/sweep/skills.py",
+    "sha256": "b25371a909854e70cdea5b2eb7cf294228ab76e9cb3a0062cbb4366705831f58"
+  },
+  {
+    "path": "reference_runs/sweep_blocks/workspace/code/sweep/controller.py",
+    "sha256": "9ce6c082a4d4512b9673c6fc4b1fb2411bb54ef7491d00f1d71b4734b34af9fe"
+  },
+  {
+    "path": "reference_runs/sweep_blocks/workspace/code/sweep/kin.py",
+    "sha256": "3c8238ad5e90068fe1170f231b871f868a5a2fbf729e9a2f8391b01101ddc48a"
+  },
+  {
+    "path": "reference_runs/sweep_blocks/workspace/code/sweep/lib.py",
+    "sha256": "26ba7d97c8c6e8c44a6cb04af66f57c864fdf7f6d7beda08c52416eb97d95392"
+  },
+  {
+    "path": "reference_runs/libero_10_9/historical_blocks/008_turn3.py",
+    "sha256": "504e34eb5f66ce16b0088ec1c9f540faf3b2ae811a76a7d9948ce48e760aa854"
+  },
+  {
+    "path": "reference_runs/libero_10_9/historical_blocks/007_turn2.py",
+    "sha256": "f1b777c1ab6b79fc6cf7b999c039dfc5189fd468f92a0e5a1391252adef468bf"
+  },
+  {
+    "path": "reference_runs/libero_10_9/historical_blocks/004_turn0.py",
+    "sha256": "e36da8bf7203cf85f876337f6a60fb02531a12b70fe6d23fd53063444e84398d"
+  },
+  {
+    "path": "reference_runs/libero_10_9/historical_blocks/006_turn1.py",
+    "sha256": "cddca3b2a5645b276b9530bcbe5ae23b52c75c5f8866dd91ecef2a0c31d74ca9"
+  },
+  {
+    "path": "reference_runs/libero_10_9/historical_blocks/005_turn0.py",
+    "sha256": "ee9f856667dcba54be8aaf73c14addbcf62e5d07358965c4db7a9317416b4225"
+  },
+  {
+    "path": "reference_runs/libero_10_9/historical_blocks/003_turn1.py",
+    "sha256": "30ac6b13ee2062d30e6f27c0c57863a58747ec5519f99bf37bafd46487ae9e1a"
+  },
+  {
+    "path": "reference_runs/libero_10_9/historical_blocks/001_turn1.py",
+    "sha256": "4acc0c684463f0d0172c1f76d53b92550b6108b12f444d7784960e680b676c32"
+  },
+  {
+    "path": "reference_runs/libero_10_9/historical_blocks/002_turn0.py",
+    "sha256": "ce2cf376e356274bea12167ee49ab0dad7c860b94c942135b93c7574909b8775"
+  },
+  {
+    "path": "reference_runs/libero_10_9/historical_blocks/000_turn0.py",
+    "sha256": "468a6e030079e48ea59d1a0d4e4a0a9e1769779648575f21ec9409c26021d689"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/evaluate.py",
+    "sha256": "325bb3d8ea72eedb54ee972afce5faa66b5a71de535bccb3aa5f1423d120e559"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/traj_opt.py",
+    "sha256": "60f711dfd394d28201c16455d853adbbd018f8222db447cdd6ad54c032d98b06"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/reach_search.py",
+    "sha256": "830fbc4cd04e89afe2c2a85921602714f649ea33247575c286b37004069119cf"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/test_search.py",
+    "sha256": "57b39a27ea6b64cbd559b56953fcb9473d43433bb47a9ac93f06a521c31a9395"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/data_exp01.npz",
+    "sha256": "69953d9fd932bbd16ee1b676994284627bda74af6db3eff7352a80f57ac1442a"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/baseline_params.json",
+    "sha256": "2947e7262a5b84b8fdbe5eef5c3bb1b19c6a8fc8c82e39969165d694b99571f8"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/API.txt",
+    "sha256": "7bf8cc10c5eabe7cedc3696ee30d8c480e6089fda43b4b05f6a4d6ed7ae88245"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/controller.py",
+    "sha256": "809d1cd4edaee2618b72810141db8bebfe3fccd864b0b22c1eea1aa52b83d653"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/test_quality.py",
+    "sha256": "f78539970da0e5cd53cde577e022a7582b34c8879ccb0ac0d18e2ccf1fba6ecb"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/check_env.py",
+    "sha256": "5e35447675ba43af4534a0001a0d37fd098392125b8f4fb307595ddfe057cc97"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/exp01_sysid.py",
+    "sha256": "8e099da02f552de04026caaef98a7102e2764fd6b0bfba23bfe047815c01d67a"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/TASK.json",
+    "sha256": "c522e9bb4b4876deb555fda2c7ee72115d98bc98bd06d736eb36deb4bbe9ed3a"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/run_real.py",
+    "sha256": "25f2c37500995efd91d5249fd9d465638107a4e7256f4793e05d7b69b1f6856c"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/baseline.py",
+    "sha256": "6caf1bff3432816a40c999af154bb45c21f513bdea104e102bca08ab3374dc53"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/preflight_controller.py",
+    "sha256": "e8b806400559d8ba591311fa92d415f0f7abfef2b8e2a27d47590288c1e791ba"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/test_quality2.py",
+    "sha256": "cc394c55b462eb1e62cb148bfb205de678841ec2af355cf0a2027bc5d3ba0833"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/test_compress.py",
+    "sha256": "3083461c8d8f4dfcfcb7ccd75145a93757e508666f053c884ed4c9b5fb2e5601"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/switch_land.py",
+    "sha256": "5e9a676682fe94ca11f47bc7d01d2c9caa9053689a0d9305960891206c652ee0"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/acrobot_model.py",
+    "sha256": "1979004bccd53af28e39e2cf14a1d5a52bb93ccd96b39eab4473836fa26f15d6"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/data_exp04_v1.npz",
+    "sha256": "f294a04f52f8a1579586854b09747ca76c41f7ead976c0f6e9aa0d11ed69cf11"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/test_reliability.py",
+    "sha256": "5f955aa78d82eb8968247ea394cef70e39ab3267cf5ba4e36de48d6c30a37870"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/model.xml",
+    "sha256": "e203285c5779113bace0d9e1c6a1b1c7246dc019df6ded9790a99b8185ec5ed8"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/RUN_LABEL.txt",
+    "sha256": "9fd9142bd58b3ebb27847cca661d51bce9dddc4bf165d2ff05849177de635a1d"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/debug_fail.py",
+    "sha256": "99232a35437e124f3a3ab47b0129b8e7a26801d09ced37aa087b846e265989eb"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/QUALITY_CONFIG.txt",
+    "sha256": "7167a273aea114c65e741c2b287e24748542a292aab9607a3d586c1cb051ed6c"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/test_landing.py",
+    "sha256": "86eff027529ea0d3909900b453bcc559957900246fd829e7581a9b706df13152"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/PUBLIC_MODEL.txt",
+    "sha256": "38d474f43a35fc55d52bf0e46e0597b3615fb9e82afbcceefb143a70041269e6"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/common/materials.xml",
+    "sha256": "83ee4f7d3f0c9b3003ad121c2c35169a32a922c437321278f27db60d577ccfac"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/common/visual.xml",
+    "sha256": "1e338ca511de35b902c4ca944d857c23fe4e7a5aea46a475cdc317dd454245b0"
+  },
+  {
+    "path": "reference_runs/acrobot_swingup/workspace/common/skybox.xml",
+    "sha256": "71db77c7c88dd4e1b54eb394deecfba673bbf539d110de68aa229dee00abf107"
+  },
+  {
+    "path": "reference_runs/libero_spatial_2/historical_blocks/002_turn2.py",
+    "sha256": "5e469ba6d4cda7f10f1e8880f63f8abf34656d5c3c7648d15f515b02200620f8"
+  },
+  {
+    "path": "reference_runs/libero_spatial_2/historical_blocks/001_turn1.py",
+    "sha256": "8957319c36a8f6725801f390c23c07c25dc83db001b0d4434d144552b99c0fa1"
+  },
+  {
+    "path": "reference_runs/libero_spatial_2/historical_blocks/003_turn3.py",
+    "sha256": "3db51a95234277fbc84d714f23dfee9679bbc31415a0a09e68ad55544d8d911d"
+  },
+  {
+    "path": "reference_runs/libero_spatial_2/historical_blocks/000_turn0.py",
+    "sha256": "55cdf2d0fa4a45ba848c9a392c2717c7f21a815688c2bf49ebdae96c770523a1"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_4/historical_blocks/000_code.py",
+    "sha256": "94e1cb6a1794aea300ec527859638d4ac487f3190b86233577991accb19a9a02"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/controller.py",
+    "sha256": "e779348b4ce622799f3b0c367afb4a04bf9f7e3f0a812190da7f9f1df1714e9f"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/test_reperc.py",
+    "sha256": "bb600e8f4e0b4336ba45a76529cb629c52e486cfc49cf6d121e2ab7cc6b01510"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/ana_nutbottom.py",
+    "sha256": "3a0bd66bfbf625ce21fa972e82e724e4ea8f2b0f16c34fa8fcba571df3556bb1"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/test_perception.py",
+    "sha256": "b537909c67efeed2227dbf1eb92d92073048a2bf98f7260853f177dc63519886"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/ana_nut.py",
+    "sha256": "63b88b804127c93a0f889f3c464e9066fbe9252590c3759ce0fef2b9c6e47112"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/ana_hex.py",
+    "sha256": "b4563a6a9f4cf5b3a40b1839fe62d6d68c697c2037e40536893cc54ccb43dbeb"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/ana_nutrot.py",
+    "sha256": "ff7c309d372e797bfb97a9dd210bfb83f8ff5b1b811fa5a4e645c5eaa93267f2"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/ana_nuttilt.py",
+    "sha256": "5b6915c5547bb8e9fc42480d360e9a4e56194adff05208ada91808970f1bbda4"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/controller_v31.py",
+    "sha256": "ba9749f7799c43e7a9c458abc69c02d539663682b7d5413570590ebc73105e25"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/controller_v33.py",
+    "sha256": "0b47a73a9abed84dd000b2ba13c329aed7ae81b0378598c2fb0ed7f333afc279"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/check_meta.py",
+    "sha256": "667b6b174d30964bf60e725c7f62753168779a2a5fb75f92bf7aa0d98107090b"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/run_ep.py",
+    "sha256": "5d8f99948bdd635bfc447592b931596ce99d3ccd0884f122f3f6ba0510b6bc26"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/dev_episode.py",
+    "sha256": "32fdc1d1826d2594af0d15233dc12d9ef47b079ba8af6d2ea5979c15861f66c2"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/geom.py",
+    "sha256": "c54d2c31f3447d2fdee4dad52856cf799b022ce0aa3d016acd1be56412ca2c8e"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/ana_offset.py",
+    "sha256": "609c0959e6b19404719687624d1b5719b5c48b953290d96b2ec061b8a267d47b"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/ana_bolt_thread.py",
+    "sha256": "d3c2de9a48a7fbd9ecd430955e8f290b38113f406f3d8be304f0f4d80bfe9207"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/ana_boltrot.py",
+    "sha256": "ce7c68fa4e1f2779046166cd4cc680fa8fe381a50724cecf2d0c1d13d09f054f"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/ana_helix.py",
+    "sha256": "b573cc825d498e424ab6555636eafa92d99630e9ef5cda5253ea53a5068423fc"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/controller_v1.py",
+    "sha256": "37f45ed782171cbd04247d1a5340936db7fef5cb8e6732be28c01a43220b2c85"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/controller_v2.py",
+    "sha256": "e2bf04636c6c5931dc94c15574a1683c77532014cc912ef14b32b6ba7a26a747"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/dump_cams.py",
+    "sha256": "4b985a813519e6c9f58f39e5054275612217d811026d45becbc2a75d6c051450"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/mock_robot.py",
+    "sha256": "144fc6a2e3c80cf768a9b25cf590e50e69c367ceede9a093312dc0eb8d69ab0d"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/ana_nutz.py",
+    "sha256": "15b164bd86c1dcf6964a298dad46c68399cf8170ac66ef2546da84a7cfa15149"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/ana_axisfit.py",
+    "sha256": "b0aeee31ddcd41cc2e23afb6a18be8605dcbf928fae2a8186adeaca1460705f8"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/ana_ep.py",
+    "sha256": "aacc685157cbf45bb5d8d862b172305a898bbef9c66fb1db8fb531414ecd71d0"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/ana_phases.py",
+    "sha256": "3c10c45c823e3727b75f696e5b7800d3457f720fce1819cf9c2c28ab9bd94b43"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/probe_steps.py",
+    "sha256": "a3161c14b9de78b49b7d639b4ab675a06878b2f6bd9d39044a7ecb7c6eabb3b8"
+  },
+  {
+    "path": "reference_runs/factory_nut_thread/workspace/scripts/dry_run.py",
+    "sha256": "4cf438c86f046dfaa65d19dbc5cf19bf89088e536a665240dbc8aff536f5c0ef"
+  },
+  {
+    "path": "reference_runs/libero_object_swap_0/historical_blocks/000_code.py",
+    "sha256": "c8addac4acf4e94bd23e8c8f651a61623fef64719304a5503dbc71b8324462c7"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/hopctl5.py",
+    "sha256": "74e0b6bbb9b457d72ffdd12d94fcc9aa1e95a5a487504d834a0466987b496cca"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/evaluate.py",
+    "sha256": "325bb3d8ea72eedb54ee972afce5faa66b5a71de535bccb3aa5f1423d120e559"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/analyze.py",
+    "sha256": "4d3a626c9d618f5672f2b011a19eefecb6f64b622caee02fc048ba0ec81593f8"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp14.py",
+    "sha256": "74e0b6bbb9b457d72ffdd12d94fcc9aa1e95a5a487504d834a0466987b496cca"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/hopctl.py",
+    "sha256": "2017d0d69d954118db6b459b5c632ae0eea3cc7f68e5cff194a2b0c1a4e0277a"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp08.py",
+    "sha256": "b2dcb65607490d5622a9b3553ab1ba2f7375e8087b2310963cfb228ee74d0906"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/runctl.py",
+    "sha256": "aac3845c70d582c3903bb3a100d1f9e7db71fcf38dcd0649b794e5873ea7f1cb"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/hopper_lib.py",
+    "sha256": "110341b3a40959bb143afa8af2777caa77c480ce33874f94a87d04f37269a407"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp16.py",
+    "sha256": "74e0b6bbb9b457d72ffdd12d94fcc9aa1e95a5a487504d834a0466987b496cca"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp01.py",
+    "sha256": "4e543fe0818252324f969e5c892659d9c4f673527fac53eee4a3ad062c402e81"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/API.txt",
+    "sha256": "7bf8cc10c5eabe7cedc3696ee30d8c480e6089fda43b4b05f6a4d6ed7ae88245"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp12.py",
+    "sha256": "2749814f5af01171c4e47f2b603076d5b140344a3f516dbdbacc53201130a7ec"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp19.py",
+    "sha256": "74e0b6bbb9b457d72ffdd12d94fcc9aa1e95a5a487504d834a0466987b496cca"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp10.py",
+    "sha256": "171b321b0239cb7d091fba7a08565f54cb9f12dec728f7426218b5ffacc21458"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp13.py",
+    "sha256": "74e0b6bbb9b457d72ffdd12d94fcc9aa1e95a5a487504d834a0466987b496cca"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp06.py",
+    "sha256": "16d7b2788cd814a22da9b2a2c54625b782825ce47d5e81f6bc908c6a98f50e18"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/controller.py",
+    "sha256": "2c27f8bf21fe34abce644f1b83ebcf4e51ef911442529122503e386b1dc9405e"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/CONTINUATION.json",
+    "sha256": "32e9a40ed19a914514c29cca87d0a02887a361ea9b9dcbfd1ba4e54d01ecbdf0"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/TASK.json",
+    "sha256": "5d8dc26d7ce6dc4849a5f5341c7ef5c03c374e9fb86a93a08c6dda2db83a029e"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp04.py",
+    "sha256": "b34d35387638568a14510539ecaf00db8cf5ca7748b27c97ae1260bc0aaee8fe"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/hopctl3.py",
+    "sha256": "633997a4eff8bf23ddb74a460197ec46dc04e4ff9e03f6474b3681aa86fcf89f"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp15.py",
+    "sha256": "74e0b6bbb9b457d72ffdd12d94fcc9aa1e95a5a487504d834a0466987b496cca"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/preflight_controller.py",
+    "sha256": "e8b806400559d8ba591311fa92d415f0f7abfef2b8e2a27d47590288c1e791ba"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp07.py",
+    "sha256": "fbbd46f69788ec7403f0b6e4322df0b646c6dcc0d3ec062bafde763e37dd2b32"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp11.py",
+    "sha256": "14bbd91f80d20101b1cf8434705b93f0108fcd80c5a7f1ae17bf25acea99a1b2"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp00_api.py",
+    "sha256": "1de3f727818612bed0831491eca8de48d3da2c79370cfba8efac964b341b425f"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/runlib.py",
+    "sha256": "7fbf2479bd358ef62640e8d1aaa29ade8825d70986aae501d0ed9434685db861"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/hopctl4.py",
+    "sha256": "90bf2f506696dbf9551c68e41220d82e21c52d78bc9b6cb207192b460219791f"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp18.py",
+    "sha256": "74e0b6bbb9b457d72ffdd12d94fcc9aa1e95a5a487504d834a0466987b496cca"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp09.py",
+    "sha256": "c8522eeddce8fb4c9f645576d658ad0a8ecbed644b4c8b2c70f33d732849eb64"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp02.py",
+    "sha256": "2ae6c226e3437d1d3cbaa5eb3337e9995af4103a5ec8561d4a6722fa5ad9efeb"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp20.py",
+    "sha256": "74e0b6bbb9b457d72ffdd12d94fcc9aa1e95a5a487504d834a0466987b496cca"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp05.py",
+    "sha256": "1124a49c4cf123e16e49215b5d701a47195a5135d8cda95f99822bde6edcb89d"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/model.xml",
+    "sha256": "3ce93a055ffdcd83c0c701d2400768e40d2cbb9532f3c4ae33377c27f8b39f9e"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp03.py",
+    "sha256": "bc7c5c574b2fdba72f16c7ff93c78b7f5eee06cae830871389061102ca6bfb55"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/PUBLIC_MODEL.txt",
+    "sha256": "337a9f9d6be2739e8e80ccc5a1947f224f79f767e996496c89fba6ff79342063"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/exp17.py",
+    "sha256": "74e0b6bbb9b457d72ffdd12d94fcc9aa1e95a5a487504d834a0466987b496cca"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/logs/exp08.npz",
+    "sha256": "51b15c55e49b56407a545658a8f72d65d095f10182cd204e611fa3d89a038adb"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/logs/exp05.npz",
+    "sha256": "fdaaec820568b510146dab8157054a4a7558403fe4b26b967263743cc53b02a3"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/logs/exp01.npz",
+    "sha256": "f7536707fb29056f599b6c626be90576aa00f4d8dfb819f6c0983f4ec230075d"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/logs/exp07.npz",
+    "sha256": "1652d77b92ab5c379ab1bfd8d9d4363c87fcb03d6ba189947552cf56b2fc9ced"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/logs/exp10.npz",
+    "sha256": "0559426ff1ce3b5d1dfef72d49396f5b3b1ba140360947c59471cde7e8c640d3"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/logs/exp12.npz",
+    "sha256": "545a2c5bd99d04d85a33b76a959cc4a1decddbcfb267f17f3e7b097cf26ea0da"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/logs/exp11.npz",
+    "sha256": "e71c8be4f67a77532ca069df3c01b8e894fc04cbdb46c679923614fd4f0b2d85"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/logs/exp09.npz",
+    "sha256": "d8e5f5eb518de8d244c513e0460ce5a323f3c199ba175b56ab31b45cfdb48a62"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/logs/exp04.npz",
+    "sha256": "c6e064c7b6f295ac54ad5ea0e2d163a845fffb1a03d41f8bc8db37a07dca762f"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/logs/exp06.npz",
+    "sha256": "12f12701f3c59df762828f7504c43823627b073ea1f0a987344322ca9739bcde"
+  },
+  {
+    "path": "reference_runs/hopper/workspace/logs/exp02.npz",
+    "sha256": "7bbe620a4a42b81990cd389372962c341195c467d7a1a4d7abae863018bbbd28"
+  },
+  {
+    "path": "reference_runs/libero_90_16/historical_blocks/003_turn0.py",
+    "sha256": "c81be3d43fba265934791a41065542c01bdbe56fb96d0970a9dce829007197cf"
+  },
+  {
+    "path": "reference_runs/libero_90_16/historical_blocks/006_turn0.py",
+    "sha256": "6251ddb73afdf60784f72999717919252d091d263627294181331a75cbdd8e31"
+  },
+  {
+    "path": "reference_runs/libero_90_16/historical_blocks/002_turn2.py",
+    "sha256": "0aa3a737a96615006dbcc5725e67385525ffa8dc194275e82f4bddb64f2324c2"
+  },
+  {
+    "path": "reference_runs/libero_90_16/historical_blocks/004_turn0.py",
+    "sha256": "1e7acb403a5a969988ee00e9bdc53ee9ff570b0bdc77300db9cefa4a5f789a66"
+  },
+  {
+    "path": "reference_runs/libero_90_16/historical_blocks/005_turn0.py",
+    "sha256": "99f6de558185cb0aed84c75da8bcbf8f9001e574515a6739ecfec612bba6cf5b"
+  },
+  {
+    "path": "reference_runs/libero_90_16/historical_blocks/001_turn1.py",
+    "sha256": "d1211a54292792ca0cc66b3c150906be7fc56d9344158bede19cc8ef97dd2794"
+  },
+  {
+    "path": "reference_runs/libero_90_16/historical_blocks/000_turn0.py",
+    "sha256": "d2600c394142190dcd3bc02f7f1a63378280daaf9d2af39faa105272420c61cb"
+  },
+  {
+    "path": "reference_runs/libero_90_16/historical_blocks/007_turn1.py",
+    "sha256": "72e9dfeeb3f3c85d8d6f0a9fe93df6a26a52fdad062df8f7535e882a5838f349"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/exp03_ratchet.py",
+    "sha256": "59e9c818e1f2904de8169b48db58357a736cfde2f9f96daa94c7a2cf5f3d5e0e"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/evaluate.py",
+    "sha256": "325bb3d8ea72eedb54ee972afce5faa66b5a71de535bccb3aa5f1423d120e559"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/tab_check.py",
+    "sha256": "106be5af33265f4451bb59525b9839b676c3c0971b47cc4044c8fae9dbf0787a"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/tools_ls.py",
+    "sha256": "9fd59b709edae37cd3ffd77d0011f1cea9c3326f7a172fedd40faaadd4c1325e"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/run_cfg.json",
+    "sha256": "586cd8d1bbb712072c261598d2d8ade3baaf30a9f1af4e1725e6363e5339dab0"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/geo_map.py",
+    "sha256": "4d7d90c38c8703531627a044847e52ad0645e56ddeb6ca179af0f46029e2aa9e"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/psilow_0.280.npy",
+    "sha256": "0e7c0434211230bbcc556036973661aa50ab2dc58ddb2ff5b3990e44c8e2cd27"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/API.txt",
+    "sha256": "7bf8cc10c5eabe7cedc3696ee30d8c480e6089fda43b4b05f6a4d6ed7ae88245"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/run_ctrl.py",
+    "sha256": "cf3cbf5e10fe145eb0674d2db79277f75923734d80ffd77b614e0ce668e5ab53"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/ctrl2.py",
+    "sha256": "d1c55d93a74df039e8e87b2be25af06ea2add9577f2765dc1298839f1bb8531d"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/controller.py",
+    "sha256": "674e4da675b1a0ce9b58115334fad43a307657e3ed756da76a7ba6edfb61db82"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/CONTINUATION.json",
+    "sha256": "bf1e96ecf80d52212d8bedd4846c2a6f9ec0b76d2d4b01f40d86e9cdefaa4acc"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/exp01_sysid.py",
+    "sha256": "085c7bb293b4ede789431de801abfd243ad062fe46daedfd76d69888e4f50263"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/TASK.json",
+    "sha256": "dfa6aaae0121934c1cf2d6dc6a8b6fae499e7199397508c811fdd7b8f0593925"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/preflight_controller.py",
+    "sha256": "e8b806400559d8ba591311fa92d415f0f7abfef2b8e2a27d47590288c1e791ba"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/psilow_0.300.npy",
+    "sha256": "ac17bf93a9ff7ebdbd8cb656226e0b71c3d180bf701702175c8db938af3f3c29"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/exp02_strike.py",
+    "sha256": "1fc40c2e52c35050935997e2d60f79c71eaa14f6b7d72abd42c414743a8edddb"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/lib.py",
+    "sha256": "e185cd9f92885449e73d9430937002051d7dbb3ec76295da30dddba4aa19e468"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/ctrl.py",
+    "sha256": "95427c4455ab767445ab1b008ebb4d39643047ab2d410f6662f172e4dbc2ba37"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/model.xml",
+    "sha256": "7d106eafc8c7ec95dd4cfb00c9216d1522862aa7bdf2ee86f64f923c551dacef"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/psilow_0.290.npy",
+    "sha256": "765cfffb6197cfbce5f94d1931022a7c309819d7ce245514faf7079d86d46e17"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/PUBLIC_MODEL.txt",
+    "sha256": "af977e7f6789490d5cac11f262a527264a09a4c6c3fb8b488d5e8d2881afad71"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/logs/exp08_v3_ep2.npy",
+    "sha256": "0a6f9cd56d1db529935feb67b55ede420f22943b40b7663ecf7a41602c16278b"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/logs/exp11_v6_ep4.npy",
+    "sha256": "cbdf6989e0dc0557ec6f60660bee88efba11879073d2ea1b7694de02173826a6"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/logs/exp03.npy",
+    "sha256": "eaf04f7b3c7feb6bafa94eeb9f58f2d0a5ca7bd5e75fd845985f1b10441141a2"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/logs/exp01_sysid.npy",
+    "sha256": "b51dd9e3dd8ea321d3d16ed810ec4f6e5e52da102a066000f223d027fdc0fc54"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/logs/exp09_v4_ep2.npy",
+    "sha256": "1e4df4921bb4e379f3f246b812fe6ed7e11e78490f6524453c2dea6d38805266"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/logs/exp02_strike.npy",
+    "sha256": "6700065d5b74e65702ad60989fcc14f20cf79f045ca998634173483db22e12a3"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/logs/exp04_face.npy",
+    "sha256": "2d515f1ca369dfe1b3070667ac2dff09152f89e8fa7d9ea5dc19081ecb1466e1"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/logs/exp12_v6_ep5.npy",
+    "sha256": "c81a870994e492050cdd4a245db80d70acd7896e7450c8d927c06c67f1090086"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/logs/exp06_bang.npy",
+    "sha256": "6b6db2825cc75cbb60ee0ece6fd452ce76c8d268c72a236bd31e9f892ce87a17"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/logs/exp07_v2_ep2.npy",
+    "sha256": "aa31b1066e40790df487e55b58ea8c12463206083a5c39ed8ff3e8fcf96a8755"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/logs/exp10_v5_ep3.npy",
+    "sha256": "422119568b8818e2aff2a1b7bbccbd7325b4ae097ea27d66aff0f3eb13a7fb46"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/common/materials.xml",
+    "sha256": "83ee4f7d3f0c9b3003ad121c2c35169a32a922c437321278f27db60d577ccfac"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/common/visual.xml",
+    "sha256": "1e338ca511de35b902c4ca944d857c23fe4e7a5aea46a475cdc317dd454245b0"
+  },
+  {
+    "path": "reference_runs/finger_spin/workspace/common/skybox.xml",
+    "sha256": "71db77c7c88dd4e1b54eb394deecfba673bbf539d110de68aa229dee00abf107"
+  },
+  {
+    "path": "reference_runs/libero_goal_7/historical_blocks/002_turn2.py",
+    "sha256": "21f15949170a16815d9b868c1194b49d6e70c4c9b7a4f3eba55fde98ef266db9"
+  },
+  {
+    "path": "reference_runs/libero_goal_7/historical_blocks/001_turn1.py",
+    "sha256": "66d1c13683456127bdb88fdb787811707b465ccd73f0f47873d46784c5417004"
+  },
+  {
+    "path": "reference_runs/libero_goal_7/historical_blocks/003_turn3.py",
+    "sha256": "ae0ebbf1ff148536d5b8877228a9726ff0d23a4663ab14c5e75e9d44ee99fc49"
+  },
+  {
+    "path": "reference_runs/libero_goal_7/historical_blocks/000_turn0.py",
+    "sha256": "640948a91529b41b6cb22586512f5fdb0622e3228b2c89dacbe7bd916cfb82e0"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/api/runtime.py",
+    "sha256": "b2241c2e8f7cb784496c938d73974819c44fdc777173ece6e3d35ab6ded5ab88"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/handle_top.py",
+    "sha256": "28a419fe2f8469f5af76fe4d1323c21fe6ac4d4bc4ff54af31a37c727b8583ff"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/test_percep.py",
+    "sha256": "93cab726ace6e793d7aeee3a303735a6c4518850977294503f3b7e59772259d1"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/plan_grasp.py",
+    "sha256": "38863bc003aedb87beac911ed696d7cfe91f64f9a276b6eae742af11083d36a1"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/test_face.py",
+    "sha256": "2bc5dbf8ed37a4b8b6782d26c361ab12441cb30277c06a9bd86f271e2ce45d68"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/handle_fit.py",
+    "sha256": "00ad0ef6835af090b806f9be04a5ae42325915084cacca6302759cfb43fdf111"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/strike2.py",
+    "sha256": "458aac827b27df99c1ec7199513bcf0744e1811e0634655d57a75b62267b339f"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/nail_locate.py",
+    "sha256": "521162153901114849cefd15adbcdd923d62d1debffde4d11efeca78a9a2ebf1"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/face_target.py",
+    "sha256": "321258e2d4fe91f6eeaffad8af78d18f834e0ba8adc139310bf6567e166f036f"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/call.py",
+    "sha256": "81de64c194ca88eff197caa1d4911b5ef2e70b6109bf594694596d46b5518d43"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/camrot.py",
+    "sha256": "dad8e86d4ce0321313be7a576e8562d4c134e7d9107b5ed90982f1ea683fb4e4"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/handle_in_flange.py",
+    "sha256": "8a86f2553e53badddce1954620524bd777f1c6a7557b93a8998fe67ce952a137"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/hand_geom.py",
+    "sha256": "4e4a063c2b154663b0227e389a2d9fbe0b3c0da9265bc79a21836e6bdd5d0796"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/test_slab.py",
+    "sha256": "4f148921062dd515950991b26cf4c224d13a99838615b734c05c8ba33c216536"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/test_ctrl_offline.py",
+    "sha256": "623d41c0326a87becedf5d81a3b7818368a98c8aac2581d5f03d8bc550339b80"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/trace.py",
+    "sha256": "eb07ba6b09f3a94245e4db605218b8c1a68c4c17f2de72701222f62535d05b08"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/run_ctrl.py",
+    "sha256": "8d04c9c203d0ff9955df9e98e94190125165b5ed54a30a4e0ed186666eb3afb6"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/frames.py",
+    "sha256": "68cd2e56fcb5e366adc497216e6febf963cadc13bc6744a723666bc0dacb8204"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/geom.py",
+    "sha256": "349f9f4cc7258b1c6c7cd3e63d6e93de6ed3a742121849d146cba21a3516a8ec"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/head_slices.py",
+    "sha256": "f9369f8b719d9e815c415a4e8e1fd061fd822bed9dbf0fe07f6f31f24715413c"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/smoke_fake.py",
+    "sha256": "099e6937c6273710f66eededc447def6a05a9e452f8fcd024c7be543098ebcf9"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/preview_step.py",
+    "sha256": "602c5bf76663399222be1cc07419bdb969cc67bb204c9e4ef09ed634904f9233"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/grasp.py",
+    "sha256": "d6ae36ca95aed02fdb2238084bd3ee05f50ff74bfbfbfabd926e145336578f55"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/hammer_wrist.py",
+    "sha256": "4cd72e99e110a27a08360b43c1ad9df9f3149e910dccdb967622fed31a8677b1"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/strike_test.py",
+    "sha256": "20fa3748262ed0c5cb2554625764d2ddf064a536d159c59f3699121743d39235"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/preview_yaw.py",
+    "sha256": "d7cccc4995c81e6a6595eb41ff4788ba705f1c3615a53d3a4743fbb4df794bb5"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/seg1.py",
+    "sha256": "21196cfc4e4559c5e9e54e5bf7d646a0ed79ae614fb2f93354cae9b49adf9714"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/bench.py",
+    "sha256": "a068e30e91bdd0d8153f6d2eccab41e85425f642af5da26b044b6522ff13acf2"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/topdown.py",
+    "sha256": "df1695fb1474a47943e5252c876d67004fd88f83ae8cfdd2322b63a28ba51668"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/motion.py",
+    "sha256": "bd490c653462a3dae42e4def20c29096571a7b18352fb3d7e4bee9956693ab92"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/test_percep_lib.py",
+    "sha256": "dd057d146d539ebf8409d5af3f02f195c5d2fe0ec4ecd9de49022b6941e24b3e"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/gen_hand.py",
+    "sha256": "436cfe0e2599e3c0c27469d792d55256febb1451a96af5712288f3944fbca937"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/gen_cam_rows.py",
+    "sha256": "375b484cea12f6cf87f54bd8abf1f85785e7d45a73bf1ef88bbfdd065d6d0210"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/resume_ctrl.py",
+    "sha256": "73372807f0f8ed70927c0ee5fa44ca19d122aaca0ee0270e81631ea818f9d6f5"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/head_axis.py",
+    "sha256": "23633db8c4c2578a832c9eaee896b48a9e29b6380dc8373c36ebd6757c19590d"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/test_motion.py",
+    "sha256": "01367e71fdf9472461ff45fd2c017165d4cc611eaa55206b6ba288decaf5a241"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/gen_delta.py",
+    "sha256": "cf01922875b35fea0aa80fd704925a9cadc54aa18653667e97b6103fe9191490"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/gen_wps.py",
+    "sha256": "5997e1dd5ada447b59ebcf65bf2ec6e65eca579fbb4fcb91cbe79939371b388d"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/saved.py",
+    "sha256": "e9d7c6f010f863f51dc0f9e73effb984e6d0eb8bdb5d13224dd91ffb6558c326"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/experiments/gen_move.py",
+    "sha256": "06d1c86ccd47f8ab4141f7273b8aa1c6676d1af97ff5fbc2a9c24e7d02a40c11"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/code/hammer/robot.py",
+    "sha256": "8975ddbac26d01f463929f4a26f31cc26dc3375a732f750e3ea70ab672ebdd23"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/code/hammer/perception.py",
+    "sha256": "2433ea0ae1d396dd0cdb7110672f23f909db297450b01ff718ddb32b28121623"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/code/hammer/controller.py",
+    "sha256": "722ce2a09740e5763307beeff45a616d17d7be26b7f56cca70d5ccaa363b6d86"
+  },
+  {
+    "path": "reference_runs/dexjoco_hammer_nail/workspace/code/hammer/motion.py",
+    "sha256": "a3f2858be954ccb5df0b12fe60da128b087a8ee5fcb48052499dc17e8b2ba6e7"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/handover.py",
+    "sha256": "4765b1c3f3e10dc490be1f6ddd10f9c91ce4b0eb67dc2e8b6aa77bfcccba861c"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/evaluate.py",
+    "sha256": "325bb3d8ea72eedb54ee972afce5faa66b5a71de535bccb3aa5f1423d120e559"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/vecsim.py",
+    "sha256": "f291c7c8b372c1a47f68d33bfe97459a644f29294926d548edcf44ba192e13a9"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/check_sub.py",
+    "sha256": "b165284eaf051f46f2a8c5d221e17804d6b2dc58aebb7c156dc8553bf01da29b"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/val_sim.py",
+    "sha256": "bb2e4740be30055a47a95866d21fc764d957f76416e0e8fd0cb77148164aa7fe"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/API.txt",
+    "sha256": "7bf8cc10c5eabe7cedc3696ee30d8c480e6089fda43b4b05f6a4d6ed7ae88245"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/cem_open.py",
+    "sha256": "ddd9de25a8398b701426c7e06b6f146032192e490dfdba6c89ea80431dd6ba30"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/exp06_07.py",
+    "sha256": "81b4edb8c19ca22c48f842b6bd4074f270e3ca7d56a14c1c254eef8725befc0a"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/exp03_05.py",
+    "sha256": "6032d9549dc1b11ac9676914dd547121537df8a7fcb2af58968370e2ff29bcb6"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/controller.py",
+    "sha256": "b1647fb29cb2fe164629c6b025e925ec0e0e60981f57449559856ff3f54e89c6"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/controller_v1.py",
+    "sha256": "c01c07e0076f07ffa1b326e161f57caf28ec5345072a9d014999f50e76dcd576"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/controller_v2.py",
+    "sha256": "56d1211371290f0985c8c7d5c413d638491a0c4139e4eca5243245b5d50e86b6"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/exp01_sysid.py",
+    "sha256": "47d84bd50b70d5557a03670c972f4cbfbb3982e6c949b56af059c45f70302cef"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/TASK.json",
+    "sha256": "4f7bff376379f08ef2c64a00c1a7958e7c7dd45b475ad7113320f0716c531a68"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/run_eval_v2.py",
+    "sha256": "137e3b3d7492d2dd5f14fee21005d1e0a2fb89b52f79c3734458787c73e95f16"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/run_real.py",
+    "sha256": "7af6468be27ddaa03f158a9769f6e4d4d305e12efd431968e4543a5a91d688f3"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/sanity_v3.py",
+    "sha256": "9e22863bd6a412b22ba2fa973ef242e382959593c2409f8bb80b552c5578700d"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/preflight_controller.py",
+    "sha256": "e8b806400559d8ba591311fa92d415f0f7abfef2b8e2a27d47590288c1e791ba"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/eval_sim.py",
+    "sha256": "b5163e5f10d1216460095d7adbc9c5ed41e3d2afd4d296239a1fe810dd703ea0"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/exp02.py",
+    "sha256": "6c422d0e989cf6ea550553d3e4115b941232e4c9b615bb432b16da4520a44a78"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/mysim.py",
+    "sha256": "239c911a9063b7b4f7018c98595e84aff7ea307acf1465fc95c3a209059e4a70"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/offline_grid.py",
+    "sha256": "708d78663879e51e46c3d94ff2d19dc04e9ac73fdffbb4f9515f515331a5e2ee"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/model.xml",
+    "sha256": "34c70aafdc3459db807acb61f401e7157cfc35369bbcb712eda0e820ccb3a4f5"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/sweep_pump.py",
+    "sha256": "0aa47e38ebc02cba5241d628672d854e5d3b3bf44e157a08776119f9d7cb6067"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/controller_v3.py",
+    "sha256": "b1647fb29cb2fe164629c6b025e925ec0e0e60981f57449559856ff3f54e89c6"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/install.py",
+    "sha256": "cd3b03af496c57ed3aca620c566279cc35ff497bb3aced1446319a8c3927ca19"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/PUBLIC_MODEL.txt",
+    "sha256": "5eea092ceadbce0408e0bb5f66b7f56ddb1a920e1801887249ceea145baded24"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/memory/exp05.npz",
+    "sha256": "4953d65f80a81cc84c29d16f21baf5b061d4e84d19431933eef96492afa43c93"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/memory/exp01.npz",
+    "sha256": "efe482f41abf9e1d503b1572a23d1c433d8f8eb1b6cde5b2196ac15b723dc2ad"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/memory/exp03.npz",
+    "sha256": "c83d8e88538097effb3d617ceb6c252376dea70e362c61a6f14016c2179971cf"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/memory/cem_open.npz",
+    "sha256": "3eeb2a8a2bf09d2f03321979434904cbad9f0e2cf69b287b26db5419b2ed8226"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/memory/exp04.npz",
+    "sha256": "ab7a41c01d334e62855beebc95764a13c6852e33c7bf4d56cffc5af4acaa20c6"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/memory/exp06.npz",
+    "sha256": "518040c1d3c44d61e315850e0ed7c4d3a5b2f26c3aa0d19ffc915dbb248be45f"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/memory/exp02.npz",
+    "sha256": "bf147946a528e00e5430b35d29f6afe3598358a6ea15d71257ee8a694b51fdb4"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/common/materials.xml",
+    "sha256": "83ee4f7d3f0c9b3003ad121c2c35169a32a922c437321278f27db60d577ccfac"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/common/visual.xml",
+    "sha256": "1e338ca511de35b902c4ca944d857c23fe4e7a5aea46a475cdc317dd454245b0"
+  },
+  {
+    "path": "reference_runs/ball_in_cup_catch/workspace/common/skybox.xml",
+    "sha256": "71db77c7c88dd4e1b54eb394deecfba673bbf539d110de68aa229dee00abf107"
+  }
+]

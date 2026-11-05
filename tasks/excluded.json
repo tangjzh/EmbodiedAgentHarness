@@ -1,0 +1,18 @@
+{
+  "excluded_benchmark": "RoboCasa",
+  "excluded_tasks": [
+    "robocasa365:CoffeeSetupMug",
+    "robocasa365:OpenCabinet",
+    "robocasa365:OpenDrawer",
+    "robocasa365:PickPlaceCounterToCabinet",
+    "robocasa365:PickPlaceCounterToStove",
+    "robocasa365:PickPlaceDrawerToCounter",
+    "robocasa365:PickPlaceSinkToCounter",
+    "robocasa365:PickPlaceToasterToCounter",
+    "robocasa365:TurnOffStove",
+    "robocasa365:TurnOnSinkFaucet"
+  ],
+  "qualification_only": [
+    "garment_fling"
+  ]
+}

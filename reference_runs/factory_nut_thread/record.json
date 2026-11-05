@@ -1,0 +1,15 @@
+{
+  "task": "factory_nut_thread",
+  "historical_result": {
+    "metric": "native_final_success",
+    "successes": 3,
+    "trials": 3
+  },
+  "summary": "最终20开发回合后冻结程序；3个留出回合均449步，native_success-anytime与结束时native_final_success均true。原生预抓螺母、保持手竖直和工作区限制，基础旋转由执行器提供。",
+  "limitations": [
+    "预抓螺母；原生控制器保持夹爪闭合、限制手倾角和工作区，并用带噪声的模拟器螺栓位置限制工作区。",
+    "基础旋转由执行器持续提供，不是Agent独立实现完整旋拧执行器。",
+    "旧本地reader_export是中途快照；最终结论以远端完成记录为准。"
+  ],
+  "reference_is_operator_only": true
+}

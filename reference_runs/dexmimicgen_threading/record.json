@@ -1,0 +1,14 @@
+{
+  "task": "dexmimicgen_threading",
+  "historical_result": {
+    "metric": "native_success",
+    "successes": 3,
+    "trials": 3
+  },
+  "summary": "20开发回合均原生成功；冻结3留出均成功：287/278/343步。未见完整失败episode，不编造失败样本。",
+  "limitations": [
+    "开发和留出均未记录完整失败回合，不能为展示而虚构失败样本。",
+    "仅3个留出样本；不能推出任意双臂穿套泛化。"
+  ],
+  "reference_is_operator_only": true
+}

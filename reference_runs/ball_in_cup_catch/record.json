@@ -1,0 +1,15 @@
+{
+  "task": "ball_in_cup_catch",
+  "historical_result": {
+    "metric": "mean_reward_occupancy",
+    "value": 0.984,
+    "trials": 3
+  },
+  "summary": "中断agent的checkpoint后续冻结验证；3回合奖励步992/994/966，无新增模型调用。",
+  "limitations": [
+    "使用模拟器直接提供的杯/球状态；不是RGB-D感知任务。",
+    "Agent开发会话被基础设施中断；最终是原checkpoint无新增模型调用的冻结验证。",
+    "自建模型预测不算原生实验结果。"
+  ],
+  "reference_is_operator_only": true
+}

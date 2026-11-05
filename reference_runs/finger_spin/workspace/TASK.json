@@ -1,0 +1,60 @@
+{
+  "benchmark": "dm_control",
+  "domain": "finger",
+  "task": "spin",
+  "goal": "Use the two-actuator finger to sustain the native rewarded spinner rotation direction, above its 15 rad/s threshold.",
+  "dynamics": "Native reward requires sustained angular velocity, not a final pose.",
+  "budget": {
+    "development_episodes": 20,
+    "heldout_episodes": 3,
+    "agent_wall_seconds": 7200,
+    "agent_turns": 200,
+    "remaining_agent_wall_seconds": 2998.40670491755,
+    "remaining_agent_turns": 148,
+    "carried_development_steps": 816,
+    "continuation_is_new_trial": false
+  },
+  "native_action_low": [
+    -1.0,
+    -1.0
+  ],
+  "native_action_high": [
+    1.0,
+    1.0
+  ],
+  "initial_public_observation": {
+    "position": [
+      0.6133248583267026,
+      1.2338108039768043,
+      -0.04079717650770348,
+      0.1234325337542711
+    ],
+    "velocity": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "touch": [
+      0.0,
+      0.0
+    ]
+  },
+  "control_hz": 50.0,
+  "current_public_observation": {
+    "position": [
+      -0.624035349419242,
+      0.8557360621705865,
+      -0.12782575084482084,
+      0.023676516233554712
+    ],
+    "velocity": [
+      1.9683829907420685,
+      -0.1656273356537243,
+      -6.866216705781637
+    ],
+    "touch": [
+      4.285331530940806,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "rax-robodojo": {
+    "url": "https://github.com/robot-agent-exploration/rax.git",
+    "commit": "9d03ba60cee50f5a39c0031774b337dc1ff75245"
+  },
+  "rax-dexjoco": {
+    "url": "https://github.com/robot-agent-exploration/rax.git",
+    "commit": "4b577aa2ba0039ad01707ede236be9913274180e"
+  },
+  "robodojo": {
+    "url": "https://github.com/RoboDojo-Benchmark/RoboDojo.git",
+    "commit": "ee67a1468510da7624a089164402359f2afc72c8",
+    "path": "rax-robodojo/RoboDojo"
+  },
+  "isaaclab": {
+    "url": "https://github.com/yuechen0614/IsaacLab.git",
+    "commit": "afca7b09d60d8beb9c1cb28b43066499940b969b",
+    "path": "rax-robodojo/RoboDojo/third_party/IsaacLab"
+  },
+  "cap-x": {
+    "commit": "53e9966d7a8e2fa7494676772bccc35280f5c0ed",
+    "url": "https://github.com/capgym/cap-x.git"
+  },
+  "libero-pro": {
+    "commit": "5368540790fde9a18584d64105ec5ac16d8926bd",
+    "path": "cap-x/capx/third_party/LIBERO-PRO",
+    "url": "https://github.com/uynitsuj/LIBERO-PRO.git"
+  },
+  "capx-robosuite": {
+    "commit": "97292732ed909ac3ae116579fb768607034a4dbd",
+    "path": "cap-x/capx/third_party/robosuite",
+    "url": "https://github.com/uynitsuj/robosuite"
+  },
+  "dexjoco": {
+    "url": "https://github.com/brave-eai/dexjoco.git",
+    "commit": "8d23b0fab23b17a58c4b55f3942e17013aaf8267",
+    "path": "rax-dexjoco/DexJoCo"
+  },
+  "dexmimicgen": {
+    "url": "https://github.com/NVlabs/dexmimicgen.git",
+    "commit": "940e8a1b3ad70eb1925ada6b364b197de6bb2af9"
+  },
+  "maniskill": {
+    "url": "https://github.com/mani-skill/ManiSkill.git",
+    "commit": "62ff3a5896b4d5b4cf0ac4c8d79afe600c9404a3"
+  },
+  "dlo-lab": {
+    "url": "https://github.com/UMass-Embodied-AGI/DLO-Lab.git",
+    "commit": "4af05620a9b3c28c0fc8bd80ceb4f1edd56fd3e8",
+    "path": "DLO-Lab"
+  }
+}

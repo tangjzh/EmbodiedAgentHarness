@@ -1,0 +1,18 @@
+Use import robot_api as robot in Python files executed by robot.run_python_file.
+robot.observe() returns the benchmark's public native observation.
+robot.cameras() returns {'rgb': uint8 HWC, 'depth_m': float32 HW} for CPU image analysis.
+robot.step(action,repeat=1) applies native bounded actuator commands and returns observations/rewards/terminal.
+You can run a feedback loop at every native control tick in your code, without an LLM call per tick.
+robot.reset() ends the current development episode and consumes another; reset is NEVER free.
+robot.finish() ends the current episode. Every physics tick and initial state is accounted.
+NumPy, SciPy, OpenCV, image processing, file-based memory and arbitrary controller code are available.
+Your files run as separate processes; persist code/parameters in the workspace between calls.
+Inspect the returned RGB and native sensor values. Native rewards may be used during development.
+Do not access simulator internals, other sessions, host files, credentials or internet.
+There is no supplied trained policy or task-specific action primitive.
+Write controller.py defining policy(observation, step, memory) -> action. memory is a persistent dict
+within one rollout. This function must use only the observation argument and workspace code/parameters;
+no robot.step/reset/observe calls inside policy. Controller receives observations at every native tick.
+The operator will freeze it and evaluate on three unseen initial states, with no live agent or reset.
+
+Read PUBLIC_MODEL.txt and model.xml for native sensor meanings and public static model parameters before designing control.

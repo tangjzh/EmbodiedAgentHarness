@@ -1,0 +1,114 @@
+{
+  "contract_tests": 9,
+  "syntax": "passed",
+  "secret_scan": "passed",
+  "native_replays": [
+    {
+      "task": "finger_spin",
+      "valid": true,
+      "process_returncode": 0,
+      "status": "checkpoint_completed",
+      "holdout_episodes": 3,
+      "returns": [
+        989.0,
+        954.0,
+        900.0
+      ],
+      "mean_return": 947.6666666666666,
+      "reward_time_fraction": [
+        0.989,
+        0.954,
+        0.9
+      ],
+      "native_seeds": [
+        951001,
+        951002,
+        951003
+      ],
+      "new_model_calls": 0
+    },
+    {
+      "task": "ball_in_cup_catch",
+      "valid": true,
+      "process_returncode": 0,
+      "status": "checkpoint_completed",
+      "holdout_episodes": 3,
+      "returns": [
+        992.0,
+        994.0,
+        966.0
+      ],
+      "mean_return": 984.0,
+      "reward_time_fraction": [
+        0.992,
+        0.994,
+        0.966
+      ],
+      "native_seeds": [
+        951001,
+        951002,
+        951003
+      ],
+      "new_model_calls": 0
+    },
+    {
+      "task": "acrobot_swingup",
+      "valid": true,
+      "process_returncode": 0,
+      "status": "checkpoint_completed",
+      "holdout_episodes": 3,
+      "returns": [
+        681.097382531987,
+        700.8418607677322,
+        709.1140805199004
+      ],
+      "mean_return": 697.0177746065398,
+      "reward_time_fraction": [
+        0.681097382531987,
+        0.7008418607677322,
+        0.7091140805199004
+      ],
+      "native_seeds": [
+        951001,
+        951002,
+        951003
+      ],
+      "new_model_calls": 0
+    },
+    {
+      "task": "hopper",
+      "valid": true,
+      "process_returncode": 0,
+      "status": "checkpoint_completed",
+      "holdout_episodes": 3,
+      "returns": [
+        1139.158873034197,
+        1128.1883345893907,
+        1138.556946002245
+      ],
+      "mean_return": 1135.3013845419443,
+      "reward_time_fraction": [
+        null,
+        null,
+        null
+      ],
+      "native_seeds": [
+        951001,
+        951002,
+        951003
+      ],
+      "new_model_calls": 0
+    }
+  ],
+  "fresh_coding_agent_trials_rerun": false,
+  "gpu_visual_tasks_rerun": false,
+  "caveats": [
+    "Historical results remain historical; new LLM development is nondeterministic.",
+    "Legacy LIBERO interfaces are archived; exact old-interface replay is not validated."
+  ],
+  "source_fixes": [
+    "uv interpreter alias visible read-only in isolated program runtime",
+    "Pinned RoboDojo DockerSandbox kept distinct from DexJoCo BundleSandbox",
+    "Existing empty submodule directories clone correctly; non-Git user content is preserved"
+  ]
+}

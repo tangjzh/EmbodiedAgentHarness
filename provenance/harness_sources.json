@@ -1,0 +1,62 @@
+[
+  {
+    "path": "src/pilot.py",
+    "original_sha256": "764d35664d4083c87876377e5ce033a84e633898099eb78bfb212e8fdd11724e",
+    "packaged_sha256": "8cfa4077c5a3d09d679443c2ad8f9a70a1db60b3fee1d90f9f3d600b10b0fc60",
+    "changes": "Portable operator paths, configurable model/budgets/GPU; original task metrics retained."
+  },
+  {
+    "path": "src/pilot_mcp.py",
+    "original_sha256": "028ce9232640075cdb55eaab1baf012c03675dfd79bc817029a93934eed440a1",
+    "packaged_sha256": "5ad49f5013754acf0ff4672ac01511351eddbf8c5a28fb78403245eccff35a77",
+    "changes": "Portable operator paths, configurable model/budgets/GPU; original task metrics retained."
+  },
+  {
+    "path": "src/robot_api.py",
+    "original_sha256": "de635e55e25580cf8318da587051beb3c4730da8514ae70051d6339cd630a896",
+    "packaged_sha256": "de635e55e25580cf8318da587051beb3c4730da8514ae70051d6339cd630a896",
+    "changes": "Portable operator paths, configurable model/budgets/GPU; original task metrics retained."
+  },
+  {
+    "path": "src/run_checks.py",
+    "original_sha256": "33a234218e52c79b5a05c6fd5a73889f17cf562a7a18bbe729833ac5e952141b",
+    "packaged_sha256": "33a234218e52c79b5a05c6fd5a73889f17cf562a7a18bbe729833ac5e952141b",
+    "changes": "Portable operator paths, configurable model/budgets/GPU; original task metrics retained."
+  },
+  {
+    "path": "src/precision_pilot.py",
+    "original_sha256": "2dd37218f6cc7880301e5b8dc61a0fa9580d30866987c38f32ef1ae0f8a24cb4",
+    "packaged_sha256": "dd62cb3b9a2a4f5615afb7ea4a758ccccf9d6522db852569d535ce58ff8c1d2d",
+    "changes": "Portable operator paths, configurable model/budgets/GPU; original task metrics retained."
+  },
+  {
+    "path": "src/precision_envs.py",
+    "original_sha256": "2d0b9ff48b45ec74d037151762c159581ec25167ff508a216986bc29808cd33d",
+    "packaged_sha256": "a037a4628c91422e2210b86702fe2981e2aab2dc444b5dcc9d4ee712b592ffb6",
+    "changes": "Portable operator paths, configurable model/budgets/GPU; original task metrics retained."
+  },
+  {
+    "path": "src/soft_pilot.py",
+    "original_sha256": "6f892ab31042e199f4f7689db13d29f014552b303137a4e3f47e51a58f7082bf",
+    "packaged_sha256": "ad2418361a7ea25e88295d72030832d4847e744577d6f4e4f607dc62825924d8",
+    "changes": "Portable operator paths, configurable model/budgets/GPU; original task metrics retained."
+  },
+  {
+    "path": "src/soft_envs.py",
+    "original_sha256": "cb0b19c56d810fa3fe82681e17a99cbb796de82fc806a1ed904550263e14fb7f",
+    "packaged_sha256": "7bdd9bf4aef450c5c3fd23d7689a06a35924c803fa44103702c715b5cb4dee53",
+    "changes": "Portable operator paths, configurable model/budgets/GPU; original task metrics retained."
+  },
+  {
+    "path": "src/soft_factory_env.py",
+    "original_sha256": "7628dc4a84f0cefb81ddcb5272f18adca00968b7db7cddb8a728eff2cc6f0a48",
+    "packaged_sha256": "7628dc4a84f0cefb81ddcb5272f18adca00968b7db7cddb8a728eff2cc6f0a48",
+    "changes": "Portable operator paths, configurable model/budgets/GPU; original task metrics retained."
+  },
+  {
+    "path": "src/rax_runtime_compat.py",
+    "original_sha256": "cee44266a7826e118cbf1c7a168f12d5c2e06ae82997028dced8b57be51a7c9f",
+    "packaged_sha256": "cee44266a7826e118cbf1c7a168f12d5c2e06ae82997028dced8b57be51a7c9f",
+    "changes": "Portable operator paths, configurable model/budgets/GPU; original task metrics retained."
+  }
+]

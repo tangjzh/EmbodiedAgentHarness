@@ -1,0 +1,15 @@
+{
+  "task": "hopper",
+  "historical_result": {
+    "metric": "mean_native_return",
+    "value": 1135.301,
+    "trials": 3
+  },
+  "summary": "已完成续跑开发及3回合冻结留出，均1000步；原生无二元成功判据。",
+  "limitations": [
+    "原生无二元成功阈值，不把回报写成成功率。",
+    "使用直接状态；没有在最终执行中做RGB-D感知。",
+    "最终代码在750步后减弱推蹬并允许速度增大，注释明确借助剩余时限结束前尚未摔倒；不能推出无限时长稳定步态。"
+  ],
+  "reference_is_operator_only": true
+}

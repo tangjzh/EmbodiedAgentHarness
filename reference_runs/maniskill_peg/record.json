@@ -1,0 +1,14 @@
+{
+  "task": "maniskill_peg",
+  "historical_result": {
+    "metric": "native_success",
+    "successes": 3,
+    "trials": 3
+  },
+  "summary": "20开发回合19原生成功，冻结3留出均成功：43/52/51步。",
+  "limitations": [
+    "3个留出样本不足以估计总体成功率。",
+    "使用精确相机标定与无物体真值的RGB-D；固定相机视角为覆盖桌面做过调整。"
+  ],
+  "reference_is_operator_only": true
+}

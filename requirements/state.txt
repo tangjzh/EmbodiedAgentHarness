@@ -1,0 +1,8 @@
+dm-control==1.0.50
+gymnasium[mujoco]==1.4.0
+mujoco==3.17.0
+numpy==2.4.6
+scipy==1.17.1
+pillow==13.0.0
+imageio[ffmpeg]==2.38.1
+mcp==1.30.0

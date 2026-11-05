@@ -1,0 +1,15 @@
+{
+  "task": "acrobot_swingup",
+  "historical_result": {
+    "metric": "mean_native_return",
+    "value": 697.018,
+    "trials": 3
+  },
+  "summary": "中断agent的checkpoint后续冻结验证；原生回报681.097/700.842/709.114，无新增模型调用；自建模型模拟不算原生证据。",
+  "limitations": [
+    "直接状态输入，冻结控制不通过图像估计连杆。",
+    "中断会话的checkpoint完成了后续冻结验证，不能写成正常交付的Agent会话。",
+    "离线自建模型搜索与原生留出回报必须分开。"
+  ],
+  "reference_is_operator_only": true
+}

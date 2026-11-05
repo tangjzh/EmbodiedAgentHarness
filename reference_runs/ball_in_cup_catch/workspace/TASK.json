@@ -1,0 +1,36 @@
+{
+  "benchmark": "dm_control",
+  "domain": "ball_in_cup",
+  "task": "catch",
+  "goal": "Swing the tethered ball into the cup and keep it caught. Reward is native binary catch occupancy.",
+  "dynamics": "The tethered ball must gain momentum to rise into the cup; static positioning is insufficient.",
+  "budget": {
+    "development_episodes": 20,
+    "heldout_episodes": 3,
+    "agent_wall_seconds": 7200,
+    "agent_turns": 200
+  },
+  "native_action_low": [
+    -1.0,
+    -1.0
+  ],
+  "native_action_high": [
+    1.0,
+    1.0
+  ],
+  "initial_public_observation": {
+    "position": [
+      0.0,
+      0.0,
+      0.06389259245923495,
+      0.4463983887984279
+    ],
+    "velocity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "control_hz": 50.0
+}

@@ -1,0 +1,14 @@
+{
+  "task": "garment_fling",
+  "historical_result": {
+    "metric": "environment_qualification_failed",
+    "agent_called": false
+  },
+  "summary": "没有调用模型；静置0.5秒就报成功，覆盖率比值295564.375，几何毫米级。Isaac Sim4.0→5.1移植自检未通过，不计Agent成功/失败。",
+  "limitations": [
+    "没有Agent会话、工具调用或任务策略，不能算成功或失败案例。",
+    "原生grasp使用cloth attachment；不能将接口语义描述成真实摩擦夹布。",
+    "物理尺寸、渲染和评分兼容性未验证。"
+  ],
+  "reference_is_operator_only": true
+}

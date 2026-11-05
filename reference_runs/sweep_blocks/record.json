@@ -1,0 +1,14 @@
+{
+  "task": "sweep_blocks",
+  "historical_result": {
+    "metric": "native_final_success",
+    "successes": 3,
+    "trials": 3
+  },
+  "summary": "3个正式冻结留出均成功，253/330/785步；采用逐个夹放，不能称为学会扫帚扫动技能。",
+  "limitations": [
+    "录像呈现逐个夹放，不能声称学会了扫帚与多物体接触的扫动技能。",
+    "同色相接方块仍可能漏检；仅3个留出布局。"
+  ],
+  "reference_is_operator_only": true
+}

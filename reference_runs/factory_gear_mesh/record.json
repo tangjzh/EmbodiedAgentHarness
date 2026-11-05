@@ -1,0 +1,10 @@
+{
+  "task": "factory_gear_mesh",
+  "historical_result": {
+    "metric": "native_final_success",
+    "successes": 9,
+    "trials": 10
+  },
+  "source_condition": "fresh task; first task has an empty prefix",
+  "reference_is_operator_only": true
+}

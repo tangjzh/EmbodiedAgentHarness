@@ -1,0 +1,7 @@
+genesis-world==1.0.0
+numpy==2.2.6
+scipy==1.17.1
+opencv-python-headless==5.0.0.93
+pillow==11.3.0
+imageio[ffmpeg]==2.38.1
+omegaconf

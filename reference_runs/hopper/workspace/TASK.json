@@ -1,0 +1,53 @@
+{
+  "benchmark": "Gymnasium MuJoCo",
+  "env_id": "Hopper-v5",
+  "goal": "Hop forward while staying upright. Maximize the native episode return; report distance and survival. This environment has no native binary task-success predicate.",
+  "dynamics": "Forward hopping requires dynamic balance, takeoff and landing.",
+  "budget": {
+    "development_episodes": 20,
+    "heldout_episodes": 3,
+    "agent_wall_seconds": 7200,
+    "agent_turns": 200,
+    "remaining_agent_wall_seconds": 4580.574324,
+    "remaining_agent_turns": 173,
+    "carried_development_steps": 0,
+    "continuation_is_new_trial": false
+  },
+  "native_action_low": [
+    -1.0,
+    -1.0,
+    -1.0
+  ],
+  "native_action_high": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "initial_public_observation": [
+    1.2493167406373118,
+    -0.003150419533632598,
+    -0.000489203187033019,
+    0.0034344889902288454,
+    -0.0029616293301865373,
+    0.0010701376888875474,
+    0.0015763361657565077,
+    0.003038480074503888,
+    -0.0035384964198365834,
+    0.00041822425202957866,
+    -0.001974113676198013
+  ],
+  "control_hz": 125.0,
+  "current_public_observation": [
+    1.2493167406373118,
+    -0.003150419533632598,
+    -0.000489203187033019,
+    0.0034344889902288454,
+    -0.0029616293301865373,
+    0.0010701376888875474,
+    0.0015763361657565077,
+    0.003038480074503888,
+    -0.0035384964198365834,
+    0.00041822425202957866,
+    -0.001974113676198013
+  ]
+}

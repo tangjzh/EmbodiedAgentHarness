@@ -1,0 +1,32 @@
+{
+  "benchmark": "dm_control",
+  "domain": "acrobot",
+  "task": "swingup",
+  "goal": "Swing the underactuated double pendulum upright and keep its tip near the native target; maximize native reward.",
+  "dynamics": "Only the elbow is actuated; raising the passive shoulder from the hanging state requires inertial coupling.",
+  "budget": {
+    "development_episodes": 20,
+    "heldout_episodes": 3,
+    "agent_wall_seconds": 7200,
+    "agent_turns": 200
+  },
+  "native_action_low": [
+    -1.0
+  ],
+  "native_action_high": [
+    1.0
+  ],
+  "initial_public_observation": {
+    "orientations": [
+      0.843422702084278,
+      0.118726313648022,
+      0.5372505426789769,
+      -0.992927017684357
+    ],
+    "velocity": [
+      0.0,
+      0.0
+    ]
+  },
+  "control_hz": 100.0
+}

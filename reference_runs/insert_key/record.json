@@ -1,0 +1,15 @@
+{
+  "task": "insert_key",
+  "historical_result": {
+    "metric": "native_final_success",
+    "successes": 1,
+    "trials": 3
+  },
+  "summary": "最终冻结正式测试3回合，原生成功1/3（48步未成功、286步成功、264步未成功）；阶段分0/1/0.15单独报告，不能当成功率。旧reader_export停在第12开发回合，已被远端最终记录替代。",
+  "limitations": [
+    "原生正式成功1/3；开发成功及阶段分不能替代最终程序成功率。",
+    "规划工具调用次数只证明提出请求，不能证明每次规划成功或执行。",
+    "最终失败包括程序主动退出的完整正式尝试，区别于早期基础设施中断。"
+  ],
+  "reference_is_operator_only": true
+}

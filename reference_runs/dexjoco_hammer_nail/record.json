@@ -1,0 +1,14 @@
+{
+  "task": "dexjoco_hammer_nail",
+  "historical_result": {
+    "metric": "development_only",
+    "heldout_valid": false
+  },
+  "summary": "两个开发回合592/664步满足原生成功判据；第三回合514步提前结束。后续checkpoint原生模拟器首动作前崩溃，valid_trial=false，不能记为任务失败或2/3成功率。钉子推进含速度门控脚本规则，不能推断真实锤击动力学能力。",
+  "limitations": [
+    "钉子推进包含速度门控脚本规则，原生成功不证明真实锤击接触动力学已解决。",
+    "两个开发成功不能替代独立冻结留出。",
+    "后续验证首动作前模拟器崩溃，不能算任务失败。"
+  ],
+  "reference_is_operator_only": true
+}

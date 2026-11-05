@@ -1,0 +1,10 @@
+{
+  "source": "https://github.com/mani-skill/ManiSkill/blob/main/figures/environment_demos/PegInsertionSide-v1_rt.mp4",
+  "scope": "Four visual frames only; no expert actions or state",
+  "indices": [
+    0,
+    43,
+    86,
+    129
+  ]
+}

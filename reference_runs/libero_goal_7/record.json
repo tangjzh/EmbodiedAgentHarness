@@ -1,0 +1,19 @@
+{
+  "task": "libero_goal_7",
+  "scope": "Historical representative record; not a fresh-agent cohort success rate.",
+  "native_success": false,
+  "historical_harness": "Repository Python ask/exec/feedback coding loop; not native Claude Code",
+  "campaign": "action_abstraction_v1",
+  "interface": null,
+  "code_blocks": [
+    "historical_blocks/000_turn0.py",
+    "historical_blocks/001_turn1.py",
+    "historical_blocks/002_turn2.py",
+    "historical_blocks/003_turn3.py"
+  ],
+  "limitations": [
+    "说明仅覆盖选中的默认记录；同一任务的其他回合、条件与失败仍保留在任务详情中。",
+    "这是独立技能阶段的判据，不能当成整个厨房或LIBERO任务的完成率。",
+    "模拟器状态用于外部评分；默认视觉记录不因此被解释为向智能体提供了物体真值。"
+  ]
+}
