@@ -10,6 +10,9 @@ GROUPS={'state':[],'maniskill':['rax-robodojo','maniskill'],'dexmimicgen':['rax-
  'robodojo':['rax-robodojo','robodojo','isaaclab'],'dexjoco':['rax-dexjoco','dexjoco'],
  'capx_libero':['rax-robodojo','cap-x','libero-pro'],'capx_robosuite':['rax-robodojo','cap-x','capx-robosuite']}
 def setup(args):
+    if args.group=='efe':
+        from .efe import setup as efe_setup
+        return efe_setup(args)
     if args.group not in GROUPS:raise ValueError('Unknown environment group')
     upstreams=json.loads((ROOT/'provenance/upstreams.json').read_text());commands=[]
     for key in GROUPS[args.group]:

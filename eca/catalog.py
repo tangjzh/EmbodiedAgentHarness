@@ -4,7 +4,8 @@ import os
 from pathlib import Path
 ROOT=Path(os.environ.get('ECA_ROOT',Path(__file__).resolve().parents[1])).resolve()
 def tasks():
-    return json.loads((ROOT/'tasks/catalog.json').read_text())['tasks']
+    return (json.loads((ROOT/'tasks/catalog.json').read_text())['tasks'] +
+            json.loads((ROOT/'tasks/efe_catalog.json').read_text())['tasks'])
 def task(name):
     for item in tasks():
         if item['id']==name:return item

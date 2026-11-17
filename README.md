@@ -4,6 +4,14 @@
 
 收录档案站的非 RoboCasa 任务：**34 个实际 Agent 任务 + 1 个仅环境自检的衣物案例**，覆盖 dm_control、Hopper、ManiSkill、DexMimicGen、DLO-Lab、Factory、RoboDojo、DexJoCo、LIBERO/LIBERO-PRO、robosuite。
 
+另接入 [Embodied First Exam](https://github.com/mll-lab-nu/embodied-first-exam) 的 **64 个新任务家族、20 个机器人模型**：灵巧手 12、四足 13、人形 16、无人机 5、飞行机械臂 5、车辆 5、肌肉驱动模型 7、假肢 1。使用原生 Harbor + Claude Code、原生仿真与评分；默认 Standard 模式。**新增目录不是已解决任务数**。安装、任务范围、观测权限及实际验证见 [多本体任务说明](docs/EFE.md)。
+
+~~~bash
+python -m eca setup --group efe --execute
+python -m eca list --morphology quadruped
+python -m eca develop efe.mujoco_playground.go1_getup --out outputs/go1-fresh --dry-run
+~~~
+
 ## 快速开始
 
 Linux + Python 3.11。按环境组安装，避免 MuJoCo / NumPy / Isaac 的依赖冲突。
@@ -75,6 +83,7 @@ python -m eca replay maniskill_peg --out outputs/peg-reference
 - eca：命令、空工作区启动、环境检查、输出预算、无模型重放。
 - src：实际实验提取的 MCP、robot RPC、观测与原生执行器。
 - tasks/catalog.json：35 个任务契约；排除 RoboCasa。
+- tasks/efe_catalog.json：64 个新增多本体任务家族，保留上游的 122 个模式目录与哈希。
 - references：Agent 可读的公共模型/传感器资料。
 - reference_runs：操作者显式重放的任务本地历史程序，不用于 Agent 初始化。
 - provenance：上游 commit、harness 与参考程序哈希。
@@ -84,4 +93,9 @@ python -m unittest discover -s tests -v
 ~~~
 
 本仓库不启动迁移课程，也不改变原实验或正在运行的任务。视频与逐工具源码见 [实验档案站](https://embodied-agent-task-atlas.t1357489297.chatgpt.site)。
-\n## 本次发布的实际验证\n\n9 项契约检查通过。新仓库中实际重放了四个状态任务、每个3个原生留出回合：Finger94.7667%奖励时间、Ball98.4%奖励时间、Acrobot697.017775平均回报、Hopper1135.301385平均回报；与历史记录一致。均无新增模型调用。详细 seeds、逐回合数值和执行有效性见 docs/VALIDATION.json。GPU视觉任务与新的LLM从零开发未在本次发版整批重跑。\n
+
+## 初次发布的实际验证
+
+初次发布时 9 项契约检查通过。新仓库中实际重放了四个状态任务、每个3个原生留出回合：Finger94.7667%奖励时间、Ball98.4%奖励时间、Acrobot697.017775平均回报、Hopper1135.301385平均回报；与历史记录一致。均无新增模型调用。详细 seeds、逐回合数值和执行有效性见 docs/VALIDATION.json。GPU视觉任务与新的LLM从零开发未在该次发版整批重跑。
+
+多本体扩展后，21 项测试通过，122 个模式通过原生 Harbor 配置校验。实跑了灵巧手、Go1 起身、人形坐下的上游参考程序（success 均为 1），以及灵巧手空动作负例（success 为 0）；原生视频与逐项记录见 [多本体验证](docs/EFE.md#结果与复核)。这些是无模型的接入验证，尚未给出新增任务的 coding-agent 成功率。

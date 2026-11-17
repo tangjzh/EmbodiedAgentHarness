@@ -5,7 +5,8 @@ from eca.catalog import ROOT,tasks,task
 from eca.launch import plan
 class Contracts(unittest.TestCase):
     def test_task_coverage(self):
-        values=tasks();self.assertEqual(len(values),35);self.assertEqual(sum(t['enabled'] for t in values),34)
+        values=tasks();base=[t for t in values if t['backend']!='efe']
+        self.assertEqual(len(base),35);self.assertEqual(sum(t['enabled'] for t in base),34)
         self.assertFalse(any('robocasa' in t['benchmark'].lower() for t in values))
     def test_fresh_plan_has_no_reference(self):
         for t in tasks():

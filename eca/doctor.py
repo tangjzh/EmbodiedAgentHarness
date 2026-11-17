@@ -7,6 +7,9 @@ from pathlib import Path
 import shutil
 from .catalog import ROOT
 def inspect(item):
+    if item['backend']=='efe':
+        from .efe import inspect as efe_inspect
+        return efe_inspect(item)
     checks=[]
     def check(name,ok,detail):checks.append(dict(name=name,passed=bool(ok),detail=detail))
     if item['backend']=='state':

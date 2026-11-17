@@ -11,6 +11,9 @@ from types import SimpleNamespace
 from .catalog import ROOT,enabled
 def plan(item,args):
     enabled(item)
+    if item['backend']=='efe':
+        from .efe import plan as efe_plan
+        return efe_plan(item,args)
     mode=args.command
     return dict(task=item['id'],mode=mode,backend=item['backend'],model=args.model,
         effort=item.get('effort','max'),initialization='empty_task_workspace' if mode=='develop' else mode,
@@ -62,6 +65,9 @@ def run_backend(item,args,out,base):
 def run(item,args):
     description=plan(item,args)
     if args.dry_run:print(json.dumps(description,ensure_ascii=False,indent=2));return
+    if item['backend']=='efe':
+        from .efe import run as efe_run
+        return efe_run(item,args)
     out=Path(args.out).resolve();out.mkdir(parents=True,exist_ok=False)
     (out/'run.json').write_text(json.dumps(description,ensure_ascii=False,indent=2))
     configure(item,args)
