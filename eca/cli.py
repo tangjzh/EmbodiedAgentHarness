@@ -21,6 +21,8 @@ def main():
         q.add_argument('--wall-seconds',type=int);q.add_argument('--dry-run',action='store_true')
         q.add_argument('--efe-mode',choices=['standard','privileged','realtime'],default='standard')
         q.add_argument('--engine',choices=['docker','podman'],default='docker')
+        q.add_argument('--allow-model-host',action='store_true',
+            help='EFE standalone runs: explicitly allow only the configured model API hostname')
     a=parser.parse_args()
     try:
         if a.command=='list':

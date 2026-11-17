@@ -99,3 +99,5 @@ python -m unittest discover -s tests -v
 初次发布时 9 项契约检查通过。新仓库中实际重放了四个状态任务、每个3个原生留出回合：Finger94.7667%奖励时间、Ball98.4%奖励时间、Acrobot697.017775平均回报、Hopper1135.301385平均回报；与历史记录一致。均无新增模型调用。详细 seeds、逐回合数值和执行有效性见 docs/VALIDATION.json。GPU视觉任务与新的LLM从零开发未在该次发版整批重跑。
 
 多本体扩展后，21 项测试通过，122 个模式通过原生 Harbor 配置校验。实跑了灵巧手、Go1 起身、人形坐下的上游参考程序（success 均为 1），以及灵巧手空动作负例（success 为 0）；原生视频与逐项记录见 [多本体验证](docs/EFE.md#结果与复核)。这些是无模型的接入验证，尚未给出新增任务的 coding-agent 成功率。
+
+实际 Coding Agent 的首批探索已另行启动：Opus 5.5 + Claude Code，8 个主任务并行，另 2 个飞行任务先完成环境自检。任务、预算与复现命令见 [首批探索设置](docs/experiments/EFE_OPUS_PILOT.md)，完成前不报告整体成功率。

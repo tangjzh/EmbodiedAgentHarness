@@ -53,7 +53,17 @@ python -m eca summarize outputs/hand-agent
 
 先用 `--dry-run` 查看计划不会启动容器或模型。输出目录必须是新目录。可以用 `ECA_EFE_ROOT` 指向已安装的固定版本源码，用 `ECA_EFE_HARBOR` 指向相应独立环境的 Harbor 可执行文件。
 
-EFE 分支直接调用 Harbor 的原生 `claude-code` agent，固定 Claude Code **2.1.304**、默认模型 `claude-opus-5-5`、effort `high`；模型可通过 `--model` 改变。它不调用旧 harness 的 ModelProxy，不使用旧的 `ECA_CLAUDE_BIN`，也不注入跨任务代码、记忆或任务参考解法。凭据由原生 agent 接收。自定义 API 域名必须满足任务的网络白名单；本入口不会自动放宽网络权限。
+EFE 分支直接调用 Harbor 的原生 `claude-code` agent，固定 Claude Code **2.1.304**、默认模型 `claude-opus-5-5`、effort `high`；模型可通过 `--model` 改变。它不调用旧 harness 的 ModelProxy，不使用旧的 `ECA_CLAUDE_BIN`，也不注入跨任务代码、记忆或任务参考解法。凭据由原生 agent 接收。
+
+默认拒绝白名单之外的自定义 API 域名。单任务探索实验可以显式加 `--allow-model-host`，将 `--base-url` 的唯一主机传给 Harbor 原生的 `--allow-agent-host`；该扩展记录在 `run.json` 的 `model_transport_extra_host` 中。它只配置模型网络出口，不改动任务源码、仿真接口、观测权限或预算；这样的运行不声明为官方 leaderboard 提交。Token360 支持原生 Anthropic Messages 接口，因此不需要改写请求的协议代理。
+
+~~~bash
+export ANTHROPIC_API_KEY=YOUR_TOKEN360_KEY
+python -m eca develop efe.mujoco_playground.go1_getup --out outputs/go1-token360 \
+  --base-url https://api.token360.ai --allow-model-host
+~~~
+
+批量运行使用 `scripts/run_efe_pilot.py`，每项独立工作区、一次 attempt，保存 `batch.json` 心跳和每项原生结果。请在 EFE 独立环境中运行；凭据文件只在操作者进程读取，不写入批次配置。首批实验任务与预算见 [EFE_OPUS_PILOT.md](experiments/EFE_OPUS_PILOT.md)。
 
 ## 观测、预算与模式
 

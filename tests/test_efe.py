@@ -82,6 +82,12 @@ class EFE(unittest.TestCase):
         efe.check_endpoint(t,args(base_url='https://api.anthropic.com'))
         with self.assertRaisesRegex(ValueError,'outside'):
             efe.check_endpoint(t,args(base_url='https://example.invalid'))
+        override=args(base_url='https://api.token360.ai',allow_model_host=True)
+        efe.check_endpoint(t,override)
+        p=efe.plan(t,override)
+        self.assertEqual(p['model_transport_extra_host'],'api.token360.ai')
+        self.assertEqual(p['command'][p['command'].index('--allow-agent-host')+1],'api.token360.ai')
+        self.assertFalse(p['official_leaderboard_submission'])
         efe.check_endpoint(t,args(command='qualify'))  # No model endpoint needed.
 
     def test_task_hash_portability_and_tamper_detection(self):

@@ -57,6 +57,11 @@ def native_command(item, args, staged, jobs):
         cmd += ['-m', args.model, '--ak', 'reasoning_effort=' + item['effort'],
                 '--ak', 'version=' + manifest()['agent_cli_version'],
                 '--ak', 'disallowed_tools=WebSearch,WebFetch']
+        if getattr(args, 'allow_model_host', False):
+            host = urlsplit(args.base_url).hostname
+            if not host:
+                raise ValueError('Invalid model base URL')
+            cmd += ['--allow-agent-host', host]
     return cmd
 
 
@@ -77,6 +82,8 @@ def plan(item, args):
                      else item['observation']),
         output=str(out), environment_group='efe', historical_result=item['historical_result'],
         official_leaderboard_submission=False,
+        model_transport_extra_host=(urlsplit(args.base_url).hostname
+            if args.command == 'develop' and getattr(args, 'allow_model_host', False) else None),
         command=native_command(item, args, out/'staged'/Path(spec['path']).name, out/'jobs'))
 
 
@@ -126,7 +133,7 @@ def check_endpoint(item, args):
     budget = spec['agent']
     if budget.get('network_mode') == 'allowlist':
         if not any(fnmatch.fnmatchcase(host.lower(), pattern.lower())
-                   for pattern in budget.get('allowed_hosts', [])):
+                   for pattern in budget.get('allowed_hosts', [])) and not getattr(args, 'allow_model_host', False):
             raise ValueError('Model endpoint is outside this EFE task network allowlist: ' + host +
                              '. Select an allowed endpoint; task network permissions are preserved.')
 
