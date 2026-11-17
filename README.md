@@ -100,4 +100,4 @@ python -m unittest discover -s tests -v
 
 多本体扩展后，21 项测试通过，122 个模式通过原生 Harbor 配置校验。实跑了灵巧手、Go1 起身、人形坐下的上游参考程序（success 均为 1），以及灵巧手空动作负例（success 为 0）；原生视频与逐项记录见 [多本体验证](docs/EFE.md#结果与复核)。这些是无模型的接入验证，尚未给出新增任务的 coding-agent 成功率。
 
-实际 Coding Agent 的首批探索已另行启动：Opus 5.5 + Claude Code，8 个主任务并行，另 2 个飞行任务先完成环境自检。任务、预算与复现命令见 [首批探索设置](docs/experiments/EFE_OPUS_PILOT.md)，完成前不报告整体成功率。
+实际 Coding Agent 的首批探索已完成：Opus 5.5 + Claude Code，10 项各一次独立尝试，原生判定 2 项成功（无人机降落、飞行机械臂插孔）、8 项未完成。任务、预算、资源事件与运行说明见 [首批探索记录](docs/experiments/EFE_OPUS_PILOT.md)；[完整视频页](https://embodied-agent-task-atlas.t1357489297.chatgpt.site/efe-videos.html) 展示全部 10 项。该结果不用于估计稳定成功率。

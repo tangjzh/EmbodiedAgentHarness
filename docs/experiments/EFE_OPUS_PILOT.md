@@ -23,7 +23,23 @@
 
 每项保留：模型原生会话与工具日志、agent 写的代码、机器人交互记录、原生 verifier rewards、可用视频、异常和时间。模型/服务/环境故障与机器人未完成任务分开报告；参考程序的已有成绩不计入本批结果。
 
-这份文件描述启动计划，不是实时结果页。本批全部结束前，不报告整体成功率。
+这份文件记录启动设置和本批最终结果，不是实时运行看板。
+
+## 首轮最终结果
+
+10 项模型试验均已结束，各只有一次独立 agent 尝试。原生判定 2 项成功、8 项未完成：
+
+- 无人机随机平台降落：6 个留出场景全部成功，原生连续分数 98.5359894 / 100。
+- 飞行机械臂悬停插孔：原生 `success=1`，819 个控制步，约 6.8 秒仿真时间；`infra_error=0`，视频与实时判定匹配。
+- 其余 8 项：原生 `success=0`、`infra_error=0`。后空翻的 referee 记录达到 4 阶段中的 3 个，最终摔倒。
+
+这不构成稳定成功率估计，也不证明失败任务无法被 coding agent 解决。原始判定、版本及逐视频哈希见 [results.json](../media/efe-agent-pilot/results.json)，录像见[完整视频页](https://embodied-agent-task-atlas.t1357489297.chatgpt.site/efe-videos.html)。
+
+### 飞行机械臂的执行环境与资源记录
+
+初次 nop 自检因 JAX 创建 CPU 线程失败而无有效仿真结果，未调用模型。恢复时通过 Harbor 原生 `--extra-docker-compose` 指定[CPU 亲和性文件](../media/efe-agent-pilot/aerial-cpu-affinity.json)，将模拟器绑定到原声明额度对应的 11 个逻辑 CPU；原有 11 CPU quota、21 GiB 模拟器内存、1024 PID、任务源码、动作接口、评分均未改变。原始任务哈希及此运行时 overlay 的哈希分别保留。恢复后的 nop 正常计为失败，随后才启动首次 coding-agent 尝试。
+
+成功试验中，agent 的一个图像分析子进程触及强制执行的 4 GiB 容器内存上限，被内核杀掉。agent 随后恢复并完成插孔；原始记录保留 `resource_oom_kills=1`、`limits_violation_observed=1`，同时 `resource_host_oom_kills=0`、`resource_service_oom_kills=0`。按照固定版本 EFE 规则，资源事件本身不改写任务评分，最终仍由原生 grader 判断留下的结果。本项目单独披露该事件，不声称这是无资源事件的运行或官方 leaderboard 提交。
 
 批量启动示例（EFE 独立环境已经安装，Docker 与原生任务资产就绪）：
 
